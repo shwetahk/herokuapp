@@ -1,450 +1,518 @@
-11:52:06.710 INFO - Selenium build info: version: '3.4.0', revision: 'unknown'
-11:52:06.710 INFO - Launching a standalone Selenium Server
-2017-06-18 11:52:06.732:INFO::main: Logging initialized @287ms to org.seleniumhq.jetty9.util.log.StdErrLog
-11:52:06.786 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+17:39:42.276 INFO - Selenium build info: version: '3.4.0', revision: 'unknown'
+17:39:42.277 INFO - Launching a standalone Selenium Server
+2017-06-18 17:39:42.296:INFO::main: Logging initialized @279ms to org.seleniumhq.jetty9.util.log.StdErrLog
+17:39:42.356 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
  registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
-11:52:06.786 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+17:39:42.356 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
  registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
-11:52:06.787 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-11:52:06.787 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
+17:39:42.357 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+17:39:42.357 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
 Unable to create new instances on this machine.
-11:52:06.787 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-11:52:06.787 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
-2017-06-18 11:52:06.832:INFO:osjs.Server:main: jetty-9.4.3.v20170317
-2017-06-18 11:52:06.873:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@d8355a8{/,null,AVAILABLE}
-2017-06-18 11:52:06.912:INFO:osjs.AbstractConnector:main: Started ServerConnector@50777c8f{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
-2017-06-18 11:52:06.913:INFO:osjs.Server:main: Started @468ms
-11:52:06.913 INFO - Selenium Server is up and running
-11:52:07.237 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
-11:52:07.266 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, phantomjs.binary.path=/Users/laxman/myproj/node_modules/phantomjs-prebuilt/lib/phantom/bin/phantomjs, browserName=phantomjs, javascriptEnabled=true, platform=ANY}]])
-11:52:07.285 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, phantomjs.binary.path=/Users/laxman/myproj/node_modules/phantomjs-prebuilt/lib/phantom/bin/phantomjs, browserName=phantomjs, javascriptEnabled=true, platform=ANY}]
-11:52:07.297 INFO - executable: /Users/laxman/myproj/node_modules/phantomjs-prebuilt/lib/phantom/bin/phantomjs
-11:52:07.298 INFO - port: 15863
-11:52:07.298 INFO - arguments: [--webdriver=15863, --webdriver-logfile=/Users/laxman/myproj/phantomjsdriver.log]
-11:52:07.298 INFO - environment: {}
-[INFO  - 2017-06-18T10:52:08.116Z] GhostDriver - Main - running on port 15863
-[INFO  - 2017-06-18T10:52:08.364Z] Session [2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
-[INFO  - 2017-06-18T10:52:08.364Z] Session [2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9] - page.customHeaders:  - {}
-[INFO  - 2017-06-18T10:52:08.364Z] Session [2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-10.11 (El Capitan)-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
-[INFO  - 2017-06-18T10:52:08.364Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9
-11:52:08.385 INFO - Detected dialect: OSS
-11:52:08.416 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, phantomjs.binary.path=/Users/laxman/myproj/node_modules/phantomjs-prebuilt/lib/phantom/bin/phantomjs, browserName=phantomjs, javascriptEnabled=true, platform=ANY}]]
-11:52:08.445 INFO - Executing: [get: http://computer-database.herokuapp.com/computers/new])
-11:52:09.473 INFO - Done: [get: http://computer-database.herokuapp.com/computers/new]
-11:52:09.482 INFO - Executing: [find elements: By.cssSelector: body])
-11:52:09.514 INFO - Done: [find elements: By.cssSelector: body]
-11:52:09.520 INFO - Executing: [is displayed: 0 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: body]])
-11:52:09.542 INFO - Done: [is displayed: 0 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: body]]
-11:52:09.547 INFO - Executing: [find element: By.cssSelector: input[id="name"]])
-11:52:09.561 INFO - Done: [find element: By.cssSelector: input[id="name"]]
-11:52:09.565 INFO - Executing: [send keys: 1 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[id="name"]], [4, 2, 5, 1, 2, 3, 5, 0]])
-11:52:09.604 INFO - Done: [send keys: 1 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[id="name"]], [4, 2, 5, 1, 2, 3, 5, 0]]
-11:52:09.609 INFO - Executing: [find element: By.cssSelector: input[id="introduced"]])
-11:52:09.621 INFO - Done: [find element: By.cssSelector: input[id="introduced"]]
-11:52:09.625 INFO - Executing: [send keys: 2 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[id="introduced"]], [2, 0, 1, 4, -, 0, 5, -, 2, 1]])
-11:52:09.658 INFO - Done: [send keys: 2 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[id="introduced"]], [2, 0, 1, 4, -, 0, 5, -, 2, 1]]
-11:52:09.662 INFO - Executing: [find element: By.cssSelector: input[id="discontinued"]])
-11:52:09.677 INFO - Done: [find element: By.cssSelector: input[id="discontinued"]]
-11:52:09.681 INFO - Executing: [send keys: 3 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[id="discontinued"]], [2, 0, 1, 6, -, 0, 5, -, 2, 3]])
-11:52:09.713 INFO - Done: [send keys: 3 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[id="discontinued"]], [2, 0, 1, 6, -, 0, 5, -, 2, 3]]
-11:52:09.716 INFO - Executing: [find element: By.cssSelector: select[id="company"] option[value="1"]])
-11:52:09.729 INFO - Done: [find element: By.cssSelector: select[id="company"] option[value="1"]]
-11:52:09.733 INFO - Executing: [click: 4 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: select[id="company"] option[value="1"]]])
-11:52:09.770 INFO - Done: [click: 4 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: select[id="company"] option[value="1"]]]
-11:52:09.774 INFO - Executing: [find element: By.cssSelector: input[value="Create this computer"]])
-11:52:09.787 INFO - Done: [find element: By.cssSelector: input[value="Create this computer"]]
-11:52:09.790 INFO - Executing: [click: 5 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[value="Create this computer"]]])
-11:52:10.429 INFO - Done: [click: 5 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[value="Create this computer"]]]
-11:52:10.441 INFO - Executing: [find element: By.cssSelector: #main])
-11:52:10.454 INFO - Done: [find element: By.cssSelector: #main]
-11:52:10.457 INFO - Executing: [get text: 6 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: #main]])
-11:52:10.493 INFO - Done: [get text: 6 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: #main]]
-11:52:10.508 INFO - Executing: [find element: By.cssSelector: input[type=search]])
-11:52:10.520 INFO - Done: [find element: By.cssSelector: input[type=search]]
-11:52:10.524 INFO - Executing: [send keys: 7 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[type=search]], [4, 2, 5, 1, 2, 3, 5, 0]])
-11:52:10.565 INFO - Done: [send keys: 7 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[type=search]], [4, 2, 5, 1, 2, 3, 5, 0]]
-11:52:10.569 INFO - Executing: [find element: By.cssSelector: input[id="searchsubmit"]])
-11:52:10.583 INFO - Done: [find element: By.cssSelector: input[id="searchsubmit"]]
-11:52:10.586 INFO - Executing: [click: 8 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[id="searchsubmit"]]])
-11:52:10.821 INFO - Done: [click: 8 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[id="searchsubmit"]]]
-11:52:10.826 INFO - Executing: [find elements: By.cssSelector: #main h1])
-11:52:10.839 INFO - Done: [find elements: By.cssSelector: #main h1]
-11:52:10.844 INFO - Executing: [get text: 9 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: #main h1]])
-11:52:10.859 INFO - Done: [get text: 9 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: #main h1]]
-11:52:10.871 INFO - Executing: [get: http://computer-database.herokuapp.com/computers/new])
-11:52:11.188 INFO - Done: [get: http://computer-database.herokuapp.com/computers/new]
-11:52:11.196 INFO - Executing: [find elements: By.cssSelector: body])
-11:52:11.205 INFO - Done: [find elements: By.cssSelector: body]
-11:52:11.208 INFO - Executing: [is displayed: 10 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: body]])
-11:52:11.225 INFO - Done: [is displayed: 10 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: body]]
-11:52:11.229 INFO - Executing: [find element: By.cssSelector: input[id="name"]])
-11:52:11.238 INFO - Done: [find element: By.cssSelector: input[id="name"]]
-11:52:11.243 INFO - Executing: [send keys: 11 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[id="name"]], []])
-11:52:11.273 INFO - Done: [send keys: 11 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[id="name"]], []]
-11:52:11.277 INFO - Executing: [find element: By.cssSelector: input[id="introduced"]])
-11:52:11.287 INFO - Done: [find element: By.cssSelector: input[id="introduced"]]
-11:52:11.298 INFO - Executing: [send keys: 12 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[id="introduced"]], [2, 0, 1, 4, -, 0, 5, -, 2, 1]])
-11:52:11.333 INFO - Done: [send keys: 12 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[id="introduced"]], [2, 0, 1, 4, -, 0, 5, -, 2, 1]]
-11:52:11.338 INFO - Executing: [find element: By.cssSelector: input[id="discontinued"]])
-11:52:11.347 INFO - Done: [find element: By.cssSelector: input[id="discontinued"]]
-11:52:11.351 INFO - Executing: [send keys: 13 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[id="discontinued"]], [2, 0, 1, 6, -, 0, 5, -, 2, 3]])
-11:52:11.383 INFO - Done: [send keys: 13 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[id="discontinued"]], [2, 0, 1, 6, -, 0, 5, -, 2, 3]]
-11:52:11.386 INFO - Executing: [find element: By.cssSelector: select[id="company"] option[value="1"]])
-11:52:11.394 INFO - Done: [find element: By.cssSelector: select[id="company"] option[value="1"]]
-11:52:11.404 INFO - Executing: [click: 14 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: select[id="company"] option[value="1"]]])
-11:52:11.440 INFO - Done: [click: 14 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: select[id="company"] option[value="1"]]]
-11:52:11.445 INFO - Executing: [find element: By.cssSelector: input[value="Create this computer"]])
-11:52:11.454 INFO - Done: [find element: By.cssSelector: input[value="Create this computer"]]
-11:52:11.457 INFO - Executing: [click: 15 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[value="Create this computer"]]])
-11:52:11.816 INFO - Done: [click: 15 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[value="Create this computer"]]]
-11:52:11.823 INFO - Executing: [find element: By.cssSelector: div.clearfix])
-11:52:11.835 INFO - Done: [find element: By.cssSelector: div.clearfix]
-11:52:11.838 INFO - Executing: [get element attribute: 16 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: div.clearfix], class])
-11:52:11.848 INFO - Done: [get element attribute: 16 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: div.clearfix], class]
-11:52:11.864 INFO - Executing: [get: http://computer-database.herokuapp.com/computers/new])
-11:52:12.084 INFO - Done: [get: http://computer-database.herokuapp.com/computers/new]
-11:52:12.088 INFO - Executing: [find elements: By.cssSelector: body])
-11:52:12.096 INFO - Done: [find elements: By.cssSelector: body]
-11:52:12.098 INFO - Executing: [is displayed: 17 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: body]])
-11:52:12.113 INFO - Done: [is displayed: 17 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: body]]
-11:52:12.116 INFO - Executing: [find element: By.cssSelector: input[id="name"]])
-11:52:12.124 INFO - Done: [find element: By.cssSelector: input[id="name"]]
-11:52:12.127 INFO - Executing: [send keys: 18 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[id="name"]], []])
-11:52:12.153 INFO - Done: [send keys: 18 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[id="name"]], []]
-11:52:12.156 INFO - Executing: [find element: By.cssSelector: input[id="introduced"]])
-11:52:12.164 INFO - Done: [find element: By.cssSelector: input[id="introduced"]]
-11:52:12.167 INFO - Executing: [send keys: 19 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[id="introduced"]], [2, 0, 1, 4, -, 0, 5, -, 2, 3]])
-11:52:12.198 INFO - Done: [send keys: 19 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[id="introduced"]], [2, 0, 1, 4, -, 0, 5, -, 2, 3]]
-11:52:12.201 INFO - Executing: [find element: By.cssSelector: input[id="discontinued"]])
-11:52:12.209 INFO - Done: [find element: By.cssSelector: input[id="discontinued"]]
-11:52:12.212 INFO - Executing: [send keys: 20 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[id="discontinued"]], [2, 0, 1, 6, -, 0, 5, -, 2, 3]])
-11:52:12.244 INFO - Done: [send keys: 20 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[id="discontinued"]], [2, 0, 1, 6, -, 0, 5, -, 2, 3]]
-11:52:12.247 INFO - Executing: [find element: By.cssSelector: select[id="company"] option[value="1"]])
-11:52:12.254 INFO - Done: [find element: By.cssSelector: select[id="company"] option[value="1"]]
-11:52:12.257 INFO - Executing: [click: 21 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: select[id="company"] option[value="1"]]])
-11:52:12.289 INFO - Done: [click: 21 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: select[id="company"] option[value="1"]]]
-11:52:12.296 INFO - Executing: [find element: By.cssSelector: a[href="/computers"]])
-11:52:12.309 INFO - Done: [find element: By.cssSelector: a[href="/computers"]]
-11:52:12.311 INFO - Executing: [click: 22 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: a[href="/computers"]]])
-11:52:12.548 INFO - Done: [click: 22 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: a[href="/computers"]]]
-11:52:12.556 INFO - Executing: [find element: By.cssSelector: #main])
-11:52:12.563 INFO - Done: [find element: By.cssSelector: #main]
-11:52:12.567 INFO - Executing: [get text: 23 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: #main]])
-11:52:12.598 INFO - Done: [get text: 23 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: #main]]
-11:52:12.607 INFO - Executing: [get: http://computer-database.herokuapp.com/computers/new])
-11:52:12.826 INFO - Done: [get: http://computer-database.herokuapp.com/computers/new]
-11:52:12.829 INFO - Executing: [find elements: By.cssSelector: body])
-11:52:12.837 INFO - Done: [find elements: By.cssSelector: body]
-11:52:12.840 INFO - Executing: [is displayed: 24 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: body]])
-11:52:12.853 INFO - Done: [is displayed: 24 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: body]]
-11:52:12.855 INFO - Executing: [find element: By.cssSelector: input[id="name"]])
-11:52:12.863 INFO - Done: [find element: By.cssSelector: input[id="name"]]
-11:52:12.866 INFO - Executing: [send keys: 25 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[id="name"]], [t, e, s, t, d, e, l, e, t, e]])
-11:52:12.897 INFO - Done: [send keys: 25 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[id="name"]], [t, e, s, t, d, e, l, e, t, e]]
-11:52:12.900 INFO - Executing: [find element: By.cssSelector: input[value="Create this computer"]])
-11:52:12.908 INFO - Done: [find element: By.cssSelector: input[value="Create this computer"]]
-11:52:12.910 INFO - Executing: [click: 26 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[value="Create this computer"]]])
-11:52:13.345 INFO - Done: [click: 26 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[value="Create this computer"]]]
-11:52:13.350 INFO - Executing: [find element: By.cssSelector: input[type=search]])
-11:52:13.358 INFO - Done: [find element: By.cssSelector: input[type=search]]
-11:52:13.360 INFO - Executing: [send keys: 27 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[type=search]], [t, e, s, t, d, e, l, e, t, e]])
-11:52:13.396 INFO - Done: [send keys: 27 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[type=search]], [t, e, s, t, d, e, l, e, t, e]]
-11:52:13.400 INFO - Executing: [find element: By.cssSelector: input[id="searchsubmit"]])
-11:52:13.409 INFO - Done: [find element: By.cssSelector: input[id="searchsubmit"]]
-11:52:13.411 INFO - Executing: [click: 28 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[id="searchsubmit"]]])
-11:52:13.644 INFO - Done: [click: 28 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[id="searchsubmit"]]]
-11:52:13.658 INFO - Executing: [find elements: By.cssSelector: body])
-11:52:13.666 INFO - Done: [find elements: By.cssSelector: body]
-11:52:13.671 INFO - Executing: [is displayed: 29 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: body]])
-11:52:13.684 INFO - Done: [is displayed: 29 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: body]]
-11:52:13.687 INFO - Executing: [find element: By.cssSelector: #main table.computers.zebra-striped tbody tr td a])
-11:52:13.700 INFO - Done: [find element: By.cssSelector: #main table.computers.zebra-striped tbody tr td a]
-11:52:13.703 INFO - Executing: [get element attribute: 30 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: #main table.computers.zebra-striped tbody tr td a], href])
-11:52:13.714 INFO - Done: [get element attribute: 30 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: #main table.computers.zebra-striped tbody tr td a], href]
-11:52:13.717 INFO - Executing: [get: http://computer-database.herokuapp.com/computers/684])
-11:52:13.933 INFO - Done: [get: http://computer-database.herokuapp.com/computers/684]
-11:52:13.935 INFO - Executing: [find element: By.cssSelector: input[value="Delete this computer"]])
-11:52:13.947 INFO - Done: [find element: By.cssSelector: input[value="Delete this computer"]]
-11:52:13.950 INFO - Executing: [click: 31 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[value="Delete this computer"]]])
-11:52:14.284 INFO - Done: [click: 31 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[value="Delete this computer"]]]
-11:52:14.290 INFO - Executing: [find element: By.cssSelector: #main])
-11:52:14.298 INFO - Done: [find element: By.cssSelector: #main]
-11:52:14.300 INFO - Executing: [get text: 32 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: #main]])
-11:52:14.360 INFO - Done: [get text: 32 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: #main]]
-11:52:14.365 INFO - Executing: [find element: By.cssSelector: input[type=search]])
-11:52:14.373 INFO - Done: [find element: By.cssSelector: input[type=search]]
-11:52:14.376 INFO - Executing: [send keys: 33 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[type=search]], [t, e, s, t, d, e, l, e, t, e]])
-11:52:14.413 INFO - Done: [send keys: 33 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[type=search]], [t, e, s, t, d, e, l, e, t, e]]
-11:52:14.417 INFO - Executing: [find element: By.cssSelector: input[id="searchsubmit"]])
-11:52:14.425 INFO - Done: [find element: By.cssSelector: input[id="searchsubmit"]]
-11:52:14.428 INFO - Executing: [click: 34 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[id="searchsubmit"]]])
-11:52:14.661 INFO - Done: [click: 34 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[id="searchsubmit"]]]
-11:52:14.667 INFO - Executing: [find element: By.cssSelector: #main])
-11:52:14.675 INFO - Done: [find element: By.cssSelector: #main]
-11:52:14.677 INFO - Executing: [get text: 35 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: #main]])
-11:52:14.692 INFO - Done: [get text: 35 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: #main]]
-11:52:14.706 INFO - Executing: [get: http://computer-database.herokuapp.com/computers])
-11:52:14.923 INFO - Done: [get: http://computer-database.herokuapp.com/computers]
-11:52:14.926 INFO - Executing: [find elements: By.cssSelector: body])
-11:52:14.934 INFO - Done: [find elements: By.cssSelector: body]
-11:52:14.936 INFO - Executing: [is displayed: 36 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: body]])
-11:52:14.949 INFO - Done: [is displayed: 36 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: body]]
-11:52:14.953 INFO - Executing: [find element: By.cssSelector: input[type=search]])
-11:52:14.961 INFO - Done: [find element: By.cssSelector: input[type=search]]
-11:52:14.963 INFO - Executing: [send keys: 37 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[type=search]], [I, B, M]])
-11:52:14.994 INFO - Done: [send keys: 37 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[type=search]], [I, B, M]]
-11:52:14.997 INFO - Executing: [find element: By.cssSelector: input[id="searchsubmit"]])
-11:52:15.004 INFO - Done: [find element: By.cssSelector: input[id="searchsubmit"]]
-11:52:15.007 INFO - Executing: [click: 38 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[id="searchsubmit"]]])
-11:52:15.241 INFO - Done: [click: 38 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[id="searchsubmit"]]]
-11:52:15.246 INFO - Executing: [find element: By.cssSelector: #main])
-11:52:15.254 INFO - Done: [find element: By.cssSelector: #main]
-11:52:15.256 INFO - Executing: [get text: 39 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: #main]])
-11:52:15.288 INFO - Done: [get text: 39 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: #main]]
-11:52:15.297 INFO - Executing: [get: http://computer-database.herokuapp.com/computers])
-11:52:15.514 INFO - Done: [get: http://computer-database.herokuapp.com/computers]
-11:52:15.517 INFO - Executing: [find elements: By.cssSelector: body])
-11:52:15.525 INFO - Done: [find elements: By.cssSelector: body]
-11:52:15.527 INFO - Executing: [is displayed: 40 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: body]])
-11:52:15.541 INFO - Done: [is displayed: 40 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: body]]
-11:52:15.545 INFO - Executing: [find element: By.cssSelector: input[type=search]])
-11:52:15.552 INFO - Done: [find element: By.cssSelector: input[type=search]]
-11:52:15.555 INFO - Executing: [send keys: 41 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[type=search]], [h, e, r, o, k, u, a, p, p]])
-11:52:15.590 INFO - Done: [send keys: 41 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[type=search]], [h, e, r, o, k, u, a, p, p]]
-11:52:15.593 INFO - Executing: [find element: By.cssSelector: input[id="searchsubmit"]])
-11:52:15.602 INFO - Done: [find element: By.cssSelector: input[id="searchsubmit"]]
-11:52:15.605 INFO - Executing: [click: 42 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[id="searchsubmit"]]])
-11:52:15.837 INFO - Done: [click: 42 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[id="searchsubmit"]]]
-11:52:15.841 INFO - Executing: [find element: By.cssSelector: #main])
-11:52:15.848 INFO - Done: [find element: By.cssSelector: #main]
-11:52:15.850 INFO - Executing: [get text: 43 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: #main]])
-11:52:15.867 INFO - Done: [get text: 43 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: #main]]
-11:52:15.877 INFO - Executing: [get: http://computer-database.herokuapp.com/computers/new])
-11:52:16.094 INFO - Done: [get: http://computer-database.herokuapp.com/computers/new]
-11:52:16.099 INFO - Executing: [find elements: By.cssSelector: body])
-11:52:16.108 INFO - Done: [find elements: By.cssSelector: body]
-11:52:16.110 INFO - Executing: [is displayed: 44 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: body]])
-11:52:16.124 INFO - Done: [is displayed: 44 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: body]]
-11:52:16.126 INFO - Executing: [find element: By.cssSelector: input[id="name"]])
-11:52:16.134 INFO - Done: [find element: By.cssSelector: input[id="name"]]
-11:52:16.136 INFO - Executing: [send keys: 45 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[id="name"]], [T, e, s, t, M, O, S, 6]])
-11:52:16.170 INFO - Done: [send keys: 45 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[id="name"]], [T, e, s, t, M, O, S, 6]]
-11:52:16.172 INFO - Executing: [find element: By.cssSelector: input[id="introduced"]])
-11:52:16.179 INFO - Done: [find element: By.cssSelector: input[id="introduced"]]
-11:52:16.182 INFO - Executing: [send keys: 46 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[id="introduced"]], [2, 0, 1, 7, -, 0, 6, -, 1, 6]])
-11:52:16.214 INFO - Done: [send keys: 46 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[id="introduced"]], [2, 0, 1, 7, -, 0, 6, -, 1, 6]]
-11:52:16.216 INFO - Executing: [find element: By.cssSelector: input[id="discontinued"]])
-11:52:16.223 INFO - Done: [find element: By.cssSelector: input[id="discontinued"]]
-11:52:16.226 INFO - Executing: [send keys: 47 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[id="discontinued"]], [2, 0, 1, 7, -, 0, 6, -, 1, 6]])
-11:52:16.281 INFO - Done: [send keys: 47 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[id="discontinued"]], [2, 0, 1, 7, -, 0, 6, -, 1, 6]]
-11:52:16.283 INFO - Executing: [find element: By.cssSelector: select[id="company"] option[value="7"]])
-11:52:16.295 INFO - Done: [find element: By.cssSelector: select[id="company"] option[value="7"]]
-11:52:16.297 INFO - Executing: [click: 48 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: select[id="company"] option[value="7"]]])
-11:52:16.329 INFO - Done: [click: 48 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: select[id="company"] option[value="7"]]]
-11:52:16.332 INFO - Executing: [find element: By.cssSelector: input[value="Create this computer"]])
-11:52:16.339 INFO - Done: [find element: By.cssSelector: input[value="Create this computer"]]
-11:52:16.341 INFO - Executing: [click: 49 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[value="Create this computer"]]])
-11:52:16.774 INFO - Done: [click: 49 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[value="Create this computer"]]]
-11:52:16.783 INFO - Executing: [find element: By.cssSelector: input[type=search]])
-11:52:16.791 INFO - Done: [find element: By.cssSelector: input[type=search]]
-11:52:16.793 INFO - Executing: [send keys: 50 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[type=search]], [M, O, S,  , t, e, c, h, n, o, l, o, g, y]])
-11:52:16.834 INFO - Done: [send keys: 50 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[type=search]], [M, O, S,  , t, e, c, h, n, o, l, o, g, y]]
-11:52:16.837 INFO - Executing: [find element: By.cssSelector: input[id="searchsubmit"]])
-11:52:16.844 INFO - Done: [find element: By.cssSelector: input[id="searchsubmit"]]
-11:52:16.846 INFO - Executing: [click: 51 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[id="searchsubmit"]]])
-11:52:17.078 INFO - Done: [click: 51 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[id="searchsubmit"]]]
-11:52:17.084 INFO - Executing: [find element: By.cssSelector: #main])
-11:52:17.091 INFO - Done: [find element: By.cssSelector: #main]
-11:52:17.093 INFO - Executing: [get text: 52 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: #main]])
-11:52:17.112 INFO - Done: [get text: 52 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: #main]]
-11:52:17.117 INFO - Executing: [get: http://computer-database.herokuapp.com/computers/new])
-11:52:17.333 INFO - Done: [get: http://computer-database.herokuapp.com/computers/new]
-11:52:17.336 INFO - Executing: [find elements: By.cssSelector: body])
-11:52:17.342 INFO - Done: [find elements: By.cssSelector: body]
-11:52:17.345 INFO - Executing: [is displayed: 53 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: body]])
-11:52:17.358 INFO - Done: [is displayed: 53 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: body]]
-11:52:17.360 INFO - Executing: [find element: By.cssSelector: input[id="name"]])
-11:52:17.368 INFO - Done: [find element: By.cssSelector: input[id="name"]]
-11:52:17.371 INFO - Executing: [send keys: 54 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[id="name"]], [T, e, s, t, 1, 0, 1, 1]])
-11:52:17.399 INFO - Done: [send keys: 54 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[id="name"]], [T, e, s, t, 1, 0, 1, 1]]
-11:52:17.402 INFO - Executing: [find element: By.cssSelector: input[value="Create this computer"]])
-11:52:17.409 INFO - Done: [find element: By.cssSelector: input[value="Create this computer"]]
-11:52:17.412 INFO - Executing: [click: 55 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[value="Create this computer"]]])
-11:52:17.850 INFO - Done: [click: 55 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[value="Create this computer"]]]
-11:52:17.854 INFO - Executing: [find element: By.cssSelector: input[type=search]])
-11:52:17.862 INFO - Done: [find element: By.cssSelector: input[type=search]]
-11:52:17.864 INFO - Executing: [send keys: 56 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[type=search]], [T, e, s, t, 1, 0, 1, 1]])
-11:52:17.897 INFO - Done: [send keys: 56 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[type=search]], [T, e, s, t, 1, 0, 1, 1]]
-11:52:17.899 INFO - Executing: [find element: By.cssSelector: input[id="searchsubmit"]])
-11:52:17.907 INFO - Done: [find element: By.cssSelector: input[id="searchsubmit"]]
-11:52:17.911 INFO - Executing: [click: 57 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[id="searchsubmit"]]])
-11:52:18.144 INFO - Done: [click: 57 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[id="searchsubmit"]]]
-11:52:18.150 INFO - Executing: [find element: By.cssSelector: #main])
-11:52:18.158 INFO - Done: [find element: By.cssSelector: #main]
-11:52:18.161 INFO - Executing: [get text: 58 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: #main]])
-11:52:18.187 INFO - Done: [get text: 58 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: #main]]
-11:52:18.210 INFO - Executing: [get: http://computer-database.herokuapp.com/computers/new])
-11:52:18.426 INFO - Done: [get: http://computer-database.herokuapp.com/computers/new]
-11:52:18.429 INFO - Executing: [find elements: By.cssSelector: body])
-11:52:18.436 INFO - Done: [find elements: By.cssSelector: body]
-11:52:18.438 INFO - Executing: [is displayed: 59 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: body]])
-11:52:18.453 INFO - Done: [is displayed: 59 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: body]]
-11:52:18.461 INFO - Executing: [find element: By.cssSelector: input[id="name"]])
-11:52:18.468 INFO - Done: [find element: By.cssSelector: input[id="name"]]
-11:52:18.480 INFO - Executing: [send keys: 60 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[id="name"]], [4, 2, 5, 1, 2, 3, 5, 0]])
-11:52:18.510 INFO - Done: [send keys: 60 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[id="name"]], [4, 2, 5, 1, 2, 3, 5, 0]]
-11:52:18.513 INFO - Executing: [find element: By.cssSelector: input[id="introduced"]])
-11:52:18.520 INFO - Done: [find element: By.cssSelector: input[id="introduced"]]
-11:52:18.523 INFO - Executing: [send keys: 61 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[id="introduced"]], [2, 0, 1, 4, -, 0, 5, -, 2, 1]])
-11:52:18.580 INFO - Done: [send keys: 61 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[id="introduced"]], [2, 0, 1, 4, -, 0, 5, -, 2, 1]]
-11:52:18.582 INFO - Executing: [find element: By.cssSelector: input[id="discontinued"]])
-11:52:18.590 INFO - Done: [find element: By.cssSelector: input[id="discontinued"]]
-11:52:18.592 INFO - Executing: [send keys: 62 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[id="discontinued"]], [2, 0, 1, 6, -, 0, 5, -, 2, 3]])
-11:52:18.623 INFO - Done: [send keys: 62 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[id="discontinued"]], [2, 0, 1, 6, -, 0, 5, -, 2, 3]]
-11:52:18.625 INFO - Executing: [find element: By.cssSelector: select[id="company"] option[value="1"]])
-11:52:18.633 INFO - Done: [find element: By.cssSelector: select[id="company"] option[value="1"]]
-11:52:18.635 INFO - Executing: [click: 63 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: select[id="company"] option[value="1"]]])
-11:52:18.667 INFO - Done: [click: 63 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: select[id="company"] option[value="1"]]]
-11:52:18.670 INFO - Executing: [find element: By.cssSelector: input[value="Create this computer"]])
-11:52:18.678 INFO - Done: [find element: By.cssSelector: input[value="Create this computer"]]
-11:52:18.680 INFO - Executing: [click: 64 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[value="Create this computer"]]])
-11:52:19.115 INFO - Done: [click: 64 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[value="Create this computer"]]]
-11:52:19.119 INFO - Executing: [find element: By.cssSelector: input[type=search]])
-11:52:19.126 INFO - Done: [find element: By.cssSelector: input[type=search]]
-11:52:19.128 INFO - Executing: [send keys: 65 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[type=search]], [4, 2, 5, 1, 2, 3, 5, 0]])
-11:52:19.160 INFO - Done: [send keys: 65 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[type=search]], [4, 2, 5, 1, 2, 3, 5, 0]]
-11:52:19.163 INFO - Executing: [find element: By.cssSelector: input[id="searchsubmit"]])
-11:52:19.170 INFO - Done: [find element: By.cssSelector: input[id="searchsubmit"]]
-11:52:19.172 INFO - Executing: [click: 66 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[id="searchsubmit"]]])
-11:52:19.406 INFO - Done: [click: 66 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[id="searchsubmit"]]]
-11:52:19.408 INFO - Executing: [find elements: By.cssSelector: body])
-11:52:19.416 INFO - Done: [find elements: By.cssSelector: body]
-11:52:19.418 INFO - Executing: [is displayed: 67 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: body]])
-11:52:19.431 INFO - Done: [is displayed: 67 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: body]]
-11:52:19.433 INFO - Executing: [find element: By.cssSelector: #main table.computers.zebra-striped tbody tr td a])
-11:52:19.441 INFO - Done: [find element: By.cssSelector: #main table.computers.zebra-striped tbody tr td a]
-11:52:19.444 INFO - Executing: [get element attribute: 68 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: #main table.computers.zebra-striped tbody tr td a], href])
-11:52:19.455 INFO - Done: [get element attribute: 68 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: #main table.computers.zebra-striped tbody tr td a], href]
-11:52:19.457 INFO - Executing: [get: http://computer-database.herokuapp.com/computers/683])
-11:52:19.677 INFO - Done: [get: http://computer-database.herokuapp.com/computers/683]
-11:52:19.682 INFO - Executing: [find element: By.cssSelector: input[value="Save this computer"]])
-11:52:19.693 INFO - Done: [find element: By.cssSelector: input[value="Save this computer"]]
-11:52:19.695 INFO - Executing: [click: 69 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[value="Save this computer"]]])
-11:52:20.234 INFO - Done: [click: 69 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[value="Save this computer"]]]
-11:52:20.240 INFO - Executing: [find element: By.cssSelector: input[type=search]])
-11:52:20.248 INFO - Done: [find element: By.cssSelector: input[type=search]]
-11:52:20.250 INFO - Executing: [send keys: 70 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[type=search]], [4, 2, 5, 1, 2, 3, 5, 0]])
-11:52:20.282 INFO - Done: [send keys: 70 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[type=search]], [4, 2, 5, 1, 2, 3, 5, 0]]
-11:52:20.284 INFO - Executing: [find element: By.cssSelector: input[id="searchsubmit"]])
-11:52:20.291 INFO - Done: [find element: By.cssSelector: input[id="searchsubmit"]]
-11:52:20.295 INFO - Executing: [click: 71 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[id="searchsubmit"]]])
-11:52:20.529 INFO - Done: [click: 71 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[id="searchsubmit"]]]
-11:52:20.531 INFO - Executing: [find element: By.cssSelector: #main table.computers.zebra-striped tbody tr td a])
-11:52:20.538 INFO - Done: [find element: By.cssSelector: #main table.computers.zebra-striped tbody tr td a]
-11:52:20.540 INFO - Executing: [get element attribute: 72 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: #main table.computers.zebra-striped tbody tr td a], href])
-11:52:20.551 INFO - Done: [get element attribute: 72 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: #main table.computers.zebra-striped tbody tr td a], href]
-11:52:20.553 INFO - Executing: [get: http://computer-database.herokuapp.com/computers/683])
-11:52:20.772 INFO - Done: [get: http://computer-database.herokuapp.com/computers/683]
-11:52:20.775 INFO - Executing: [find elements: By.cssSelector: input[id="name"]])
-11:52:20.788 INFO - Done: [find elements: By.cssSelector: input[id="name"]]
-11:52:20.790 INFO - Executing: [get element attribute: 73 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[id="name"]], value])
-11:52:20.800 INFO - Done: [get element attribute: 73 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[id="name"]], value]
-11:52:20.805 INFO - Executing: [find elements: By.cssSelector: input[id="introduced"]])
-11:52:20.817 INFO - Done: [find elements: By.cssSelector: input[id="introduced"]]
-11:52:20.819 INFO - Executing: [get element attribute: 74 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[id="introduced"]], value])
-11:52:20.830 INFO - Done: [get element attribute: 74 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[id="introduced"]], value]
-11:52:20.834 INFO - Executing: [find elements: By.cssSelector: input[id="discontinued"]])
-11:52:20.848 INFO - Done: [find elements: By.cssSelector: input[id="discontinued"]]
-11:52:20.850 INFO - Executing: [get element attribute: 75 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[id="discontinued"]], value])
-11:52:20.863 INFO - Done: [get element attribute: 75 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[id="discontinued"]], value]
-11:52:20.869 INFO - Executing: [find elements: By.cssSelector: select[id="company"] option[value="1"]])
-11:52:20.880 INFO - Done: [find elements: By.cssSelector: select[id="company"] option[value="1"]]
-11:52:20.882 INFO - Executing: [is selected: 76 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: select[id="company"] option[value="1"]]])
-11:52:20.894 INFO - Done: [is selected: 76 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: select[id="company"] option[value="1"]]]
-11:52:20.903 INFO - Executing: [get: http://computer-database.herokuapp.com/computers/new])
-11:52:21.119 INFO - Done: [get: http://computer-database.herokuapp.com/computers/new]
-11:52:21.122 INFO - Executing: [find elements: By.cssSelector: body])
-11:52:21.130 INFO - Done: [find elements: By.cssSelector: body]
-11:52:21.132 INFO - Executing: [is displayed: 77 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: body]])
-11:52:21.169 INFO - Done: [is displayed: 77 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: body]]
-11:52:21.172 INFO - Executing: [find element: By.cssSelector: input[id="name"]])
-11:52:21.180 INFO - Done: [find element: By.cssSelector: input[id="name"]]
-11:52:21.183 INFO - Executing: [send keys: 78 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[id="name"]], [4, 2, 5, 1, 2, 3, 5, 0]])
-11:52:21.212 INFO - Done: [send keys: 78 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[id="name"]], [4, 2, 5, 1, 2, 3, 5, 0]]
-11:52:21.214 INFO - Executing: [find element: By.cssSelector: input[id="introduced"]])
-11:52:21.221 INFO - Done: [find element: By.cssSelector: input[id="introduced"]]
-11:52:21.224 INFO - Executing: [send keys: 79 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[id="introduced"]], [2, 0, 1, 4, -, 0, 5, -, 2, 1]])
-11:52:21.253 INFO - Done: [send keys: 79 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[id="introduced"]], [2, 0, 1, 4, -, 0, 5, -, 2, 1]]
-11:52:21.256 INFO - Executing: [find element: By.cssSelector: input[id="discontinued"]])
-11:52:21.264 INFO - Done: [find element: By.cssSelector: input[id="discontinued"]]
-11:52:21.266 INFO - Executing: [send keys: 80 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[id="discontinued"]], [2, 0, 1, 6, -, 0, 5, -, 2, 3]])
-11:52:21.296 INFO - Done: [send keys: 80 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[id="discontinued"]], [2, 0, 1, 6, -, 0, 5, -, 2, 3]]
-11:52:21.298 INFO - Executing: [find element: By.cssSelector: select[id="company"] option[value="1"]])
-11:52:21.305 INFO - Done: [find element: By.cssSelector: select[id="company"] option[value="1"]]
-11:52:21.307 INFO - Executing: [click: 81 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: select[id="company"] option[value="1"]]])
-11:52:21.338 INFO - Done: [click: 81 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: select[id="company"] option[value="1"]]]
-11:52:21.340 INFO - Executing: [find element: By.cssSelector: input[value="Create this computer"]])
-11:52:21.348 INFO - Done: [find element: By.cssSelector: input[value="Create this computer"]]
-11:52:21.350 INFO - Executing: [click: 82 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[value="Create this computer"]]])
-11:52:21.786 INFO - Done: [click: 82 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[value="Create this computer"]]]
-11:52:21.790 INFO - Executing: [find element: By.cssSelector: input[type=search]])
-11:52:21.797 INFO - Done: [find element: By.cssSelector: input[type=search]]
-11:52:21.799 INFO - Executing: [send keys: 83 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[type=search]], [4, 2, 5, 1, 2, 3, 5, 0]])
-11:52:21.832 INFO - Done: [send keys: 83 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[type=search]], [4, 2, 5, 1, 2, 3, 5, 0]]
-11:52:21.834 INFO - Executing: [find element: By.cssSelector: input[id="searchsubmit"]])
-11:52:21.843 INFO - Done: [find element: By.cssSelector: input[id="searchsubmit"]]
-11:52:21.846 INFO - Executing: [click: 84 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[id="searchsubmit"]]])
-11:52:22.084 INFO - Done: [click: 84 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[id="searchsubmit"]]]
-11:52:22.087 INFO - Executing: [find elements: By.cssSelector: body])
-11:52:22.095 INFO - Done: [find elements: By.cssSelector: body]
-11:52:22.097 INFO - Executing: [is displayed: 85 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: body]])
-11:52:22.111 INFO - Done: [is displayed: 85 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: body]]
-11:52:22.113 INFO - Executing: [find element: By.cssSelector: #main table.computers.zebra-striped tbody tr td a])
-11:52:22.120 INFO - Done: [find element: By.cssSelector: #main table.computers.zebra-striped tbody tr td a]
-11:52:22.122 INFO - Executing: [get element attribute: 86 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: #main table.computers.zebra-striped tbody tr td a], href])
-11:52:22.133 INFO - Done: [get element attribute: 86 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: #main table.computers.zebra-striped tbody tr td a], href]
-11:52:22.136 INFO - Executing: [get: http://computer-database.herokuapp.com/computers/683])
-11:52:22.352 INFO - Done: [get: http://computer-database.herokuapp.com/computers/683]
-11:52:22.358 INFO - Executing: [get: http://computer-database.herokuapp.com/computers/new])
-11:52:22.573 INFO - Done: [get: http://computer-database.herokuapp.com/computers/new]
-11:52:22.576 INFO - Executing: [find elements: By.cssSelector: body])
-11:52:22.584 INFO - Done: [find elements: By.cssSelector: body]
-11:52:22.586 INFO - Executing: [is displayed: 87 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: body]])
-11:52:22.600 INFO - Done: [is displayed: 87 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: body]]
-11:52:22.603 INFO - Executing: [find element: By.cssSelector: input[id="name"]])
-11:52:22.611 INFO - Done: [find element: By.cssSelector: input[id="name"]]
-11:52:22.613 INFO - Executing: [send keys: 88 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[id="name"]], [U, p, d, a, t, e, d]])
-11:52:22.642 INFO - Done: [send keys: 88 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[id="name"]], [U, p, d, a, t, e, d]]
-11:52:22.644 INFO - Executing: [find element: By.cssSelector: input[id="introduced"]])
-11:52:22.652 INFO - Done: [find element: By.cssSelector: input[id="introduced"]]
-11:52:22.655 INFO - Executing: [send keys: 89 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[id="introduced"]], [2, 0, 1, 5, -, 0, 6, -, 1, 4]])
-11:52:22.686 INFO - Done: [send keys: 89 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[id="introduced"]], [2, 0, 1, 5, -, 0, 6, -, 1, 4]]
-11:52:22.688 INFO - Executing: [find element: By.cssSelector: input[id="discontinued"]])
-11:52:22.695 INFO - Done: [find element: By.cssSelector: input[id="discontinued"]]
-11:52:22.698 INFO - Executing: [send keys: 90 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[id="discontinued"]], [2, 0, 1, 7, -, 0, 4, -, 1, 1]])
-11:52:22.754 INFO - Done: [send keys: 90 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[id="discontinued"]], [2, 0, 1, 7, -, 0, 4, -, 1, 1]]
-11:52:22.756 INFO - Executing: [find element: By.cssSelector: select[id="company"] option[value="7"]])
-11:52:22.764 INFO - Done: [find element: By.cssSelector: select[id="company"] option[value="7"]]
-11:52:22.765 INFO - Executing: [click: 91 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: select[id="company"] option[value="7"]]])
-11:52:22.798 INFO - Done: [click: 91 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: select[id="company"] option[value="7"]]]
-11:52:22.800 INFO - Executing: [find element: By.cssSelector: input[value="Create this computer"]])
-11:52:22.808 INFO - Done: [find element: By.cssSelector: input[value="Create this computer"]]
-11:52:22.809 INFO - Executing: [click: 92 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[value="Create this computer"]]])
-11:52:23.247 INFO - Done: [click: 92 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[value="Create this computer"]]]
-11:52:23.251 INFO - Executing: [find element: By.cssSelector: input[type=search]])
-11:52:23.258 INFO - Done: [find element: By.cssSelector: input[type=search]]
-11:52:23.261 INFO - Executing: [send keys: 93 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[type=search]], [U, p, d, a, t, e, d]])
-11:52:23.295 INFO - Done: [send keys: 93 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[type=search]], [U, p, d, a, t, e, d]]
-11:52:23.298 INFO - Executing: [find element: By.cssSelector: input[id="searchsubmit"]])
-11:52:23.306 INFO - Done: [find element: By.cssSelector: input[id="searchsubmit"]]
-11:52:23.310 INFO - Executing: [click: 94 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[id="searchsubmit"]]])
-11:52:23.542 INFO - Done: [click: 94 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: input[id="searchsubmit"]]]
-11:52:23.545 INFO - Executing: [find element: By.cssSelector: #main table.computers.zebra-striped tbody tr td a])
-11:52:23.553 INFO - Done: [find element: By.cssSelector: #main table.computers.zebra-striped tbody tr td a]
-11:52:23.554 INFO - Executing: [get element attribute: 95 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: #main table.computers.zebra-striped tbody tr td a], href])
-11:52:23.565 INFO - Done: [get element attribute: 95 [[PhantomJSDriver: phantomjs on OS X 10.11 (2cab6a80-5414-11e7-ab7d-5ffdaafe2ef9)] -> css selector: #main table.computers.zebra-striped tbody tr td a], href]
-11:52:23.568 INFO - Executing: [get: http://computer-database.herokuapp.com/computers/576])
-11:52:23.789 INFO - Done: [get: http://computer-database.herokuapp.com/computers/576]
-11:52:23.803 INFO - Executing: [delete session: 555b18db-e9f7-4252-a3f7-e42dc2d37bc7])
-[INFO  - 2017-06-18T10:52:23.810Z] ShutdownReqHand - _handle - About to shutdown
-11:52:23.855 INFO - Done: [delete session: 555b18db-e9f7-4252-a3f7-e42dc2d37bc7]
+17:39:42.357 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+17:39:42.357 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+2017-06-18 17:39:42.401:INFO:osjs.Server:main: jetty-9.4.3.v20170317
+2017-06-18 17:39:42.444:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@d8355a8{/,null,AVAILABLE}
+2017-06-18 17:39:42.481:INFO:osjs.AbstractConnector:main: Started ServerConnector@50777c8f{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
+2017-06-18 17:39:42.482:INFO:osjs.Server:main: Started @465ms
+17:39:42.482 INFO - Selenium Server is up and running
+17:39:42.798 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
+17:39:42.826 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, phantomjs.binary.path=/Users/laxman/myproj/node_modules/phantomjs-prebuilt/lib/phantom/bin/phantomjs, browserName=phantomjs, javascriptEnabled=true, platform=ANY}]])
+17:39:42.845 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, phantomjs.binary.path=/Users/laxman/myproj/node_modules/phantomjs-prebuilt/lib/phantom/bin/phantomjs, browserName=phantomjs, javascriptEnabled=true, platform=ANY}]
+17:39:42.857 INFO - executable: /Users/laxman/myproj/node_modules/phantomjs-prebuilt/lib/phantom/bin/phantomjs
+17:39:42.857 INFO - port: 10954
+17:39:42.857 INFO - arguments: [--webdriver=10954, --webdriver-logfile=/Users/laxman/myproj/phantomjsdriver.log]
+17:39:42.857 INFO - environment: {}
+[INFO  - 2017-06-18T16:39:43.677Z] GhostDriver - Main - running on port 10954
+[INFO  - 2017-06-18T16:39:43.945Z] Session [bb908750-5444-11e7-9ea6-7fdf42d53358] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-06-18T16:39:43.946Z] Session [bb908750-5444-11e7-9ea6-7fdf42d53358] - page.customHeaders:  - {}
+[INFO  - 2017-06-18T16:39:43.946Z] Session [bb908750-5444-11e7-9ea6-7fdf42d53358] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-10.11 (El Capitan)-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-06-18T16:39:43.946Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: bb908750-5444-11e7-9ea6-7fdf42d53358
+17:39:43.966 INFO - Detected dialect: OSS
+17:39:44.002 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, phantomjs.binary.path=/Users/laxman/myproj/node_modules/phantomjs-prebuilt/lib/phantom/bin/phantomjs, browserName=phantomjs, javascriptEnabled=true, platform=ANY}]]
+17:39:44.026 INFO - Executing: [get: http://computer-database.herokuapp.com/computers])
+17:39:44.861 INFO - Done: [get: http://computer-database.herokuapp.com/computers]
+17:39:44.870 INFO - Executing: [find elements: By.cssSelector: body])
+17:39:44.902 INFO - Done: [find elements: By.cssSelector: body]
+17:39:44.908 INFO - Executing: [is displayed: 0 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: body]])
+17:39:44.929 INFO - Done: [is displayed: 0 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: body]]
+17:39:44.936 INFO - Executing: [find element: By.cssSelector: #main h1])
+17:39:44.952 INFO - Done: [find element: By.cssSelector: #main h1]
+17:39:44.956 INFO - Executing: [get text: 1 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: #main h1]])
+17:39:44.972 INFO - Done: [get text: 1 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: #main h1]]
+17:39:44.985 INFO - Executing: [get: http://computer-database.herokuapp.com/computers/new])
+17:39:45.202 INFO - Done: [get: http://computer-database.herokuapp.com/computers/new]
+17:39:45.211 INFO - Executing: [find elements: By.cssSelector: body])
+17:39:45.221 INFO - Done: [find elements: By.cssSelector: body]
+17:39:45.224 INFO - Executing: [is displayed: 2 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: body]])
+17:39:45.239 INFO - Done: [is displayed: 2 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: body]]
+17:39:45.242 INFO - Executing: [find element: By.cssSelector: input[id="name"]])
+17:39:45.257 INFO - Done: [find element: By.cssSelector: input[id="name"]]
+17:39:45.261 INFO - Executing: [send keys: 3 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="name"]], [3, 4, 2, 0, 5, 2, 2, 1]])
+17:39:45.295 INFO - Done: [send keys: 3 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="name"]], [3, 4, 2, 0, 5, 2, 2, 1]]
+17:39:45.300 INFO - Executing: [find element: By.cssSelector: input[id="introduced"]])
+17:39:45.316 INFO - Done: [find element: By.cssSelector: input[id="introduced"]]
+17:39:45.320 INFO - Executing: [send keys: 4 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="introduced"]], [2, 0, 1, 4, -, 0, 5, -, 2, 1]])
+17:39:45.355 INFO - Done: [send keys: 4 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="introduced"]], [2, 0, 1, 4, -, 0, 5, -, 2, 1]]
+17:39:45.359 INFO - Executing: [find element: By.cssSelector: input[id="discontinued"]])
+17:39:45.371 INFO - Done: [find element: By.cssSelector: input[id="discontinued"]]
+17:39:45.376 INFO - Executing: [send keys: 5 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="discontinued"]], [2, 0, 1, 6, -, 0, 5, -, 2, 3]])
+17:39:45.411 INFO - Done: [send keys: 5 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="discontinued"]], [2, 0, 1, 6, -, 0, 5, -, 2, 3]]
+17:39:45.415 INFO - Executing: [find element: By.cssSelector: select[id="company"] option[value="1"]])
+17:39:45.428 INFO - Done: [find element: By.cssSelector: select[id="company"] option[value="1"]]
+17:39:45.432 INFO - Executing: [click: 6 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: select[id="company"] option[value="1"]]])
+17:39:45.469 INFO - Done: [click: 6 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: select[id="company"] option[value="1"]]]
+17:39:45.472 INFO - Executing: [find element: By.cssSelector: input[value="Create this computer"]])
+17:39:45.485 INFO - Done: [find element: By.cssSelector: input[value="Create this computer"]]
+17:39:45.488 INFO - Executing: [click: 7 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[value="Create this computer"]]])
+17:39:46.023 INFO - Done: [click: 7 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[value="Create this computer"]]]
+17:39:46.032 INFO - Executing: [find element: By.cssSelector: #main])
+17:39:46.044 INFO - Done: [find element: By.cssSelector: #main]
+17:39:46.047 INFO - Executing: [get text: 8 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: #main]])
+17:39:46.079 INFO - Done: [get text: 8 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: #main]]
+17:39:46.094 INFO - Executing: [find element: By.cssSelector: #main h1])
+17:39:46.103 INFO - Done: [find element: By.cssSelector: #main h1]
+17:39:46.105 INFO - Executing: [get text: 9 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: #main h1]])
+17:39:46.123 INFO - Done: [get text: 9 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: #main h1]]
+17:39:46.137 INFO - Executing: [find element: By.cssSelector: input[type=search]])
+17:39:46.151 INFO - Done: [find element: By.cssSelector: input[type=search]]
+17:39:46.156 INFO - Executing: [send keys: 10 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[type=search]], [3, 4, 2, 0, 5, 2, 2, 1]])
+17:39:46.195 INFO - Done: [send keys: 10 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[type=search]], [3, 4, 2, 0, 5, 2, 2, 1]]
+17:39:46.199 INFO - Executing: [find element: By.cssSelector: input[id="searchsubmit"]])
+17:39:46.212 INFO - Done: [find element: By.cssSelector: input[id="searchsubmit"]]
+17:39:46.215 INFO - Executing: [click: 11 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="searchsubmit"]]])
+17:39:46.551 INFO - Done: [click: 11 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="searchsubmit"]]]
+17:39:46.557 INFO - Executing: [find elements: By.cssSelector: #main h1])
+17:39:46.569 INFO - Done: [find elements: By.cssSelector: #main h1]
+17:39:46.573 INFO - Executing: [get text: 12 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: #main h1]])
+17:39:46.588 INFO - Done: [get text: 12 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: #main h1]]
+17:39:46.598 INFO - Executing: [get: http://computer-database.herokuapp.com/computers])
+17:39:46.814 INFO - Done: [get: http://computer-database.herokuapp.com/computers]
+17:39:46.818 INFO - Executing: [find elements: By.cssSelector: body])
+17:39:46.827 INFO - Done: [find elements: By.cssSelector: body]
+17:39:46.831 INFO - Executing: [is displayed: 13 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: body]])
+17:39:46.846 INFO - Done: [is displayed: 13 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: body]]
+17:39:46.850 INFO - Executing: [find element: By.cssSelector: #main h1])
+17:39:46.860 INFO - Done: [find element: By.cssSelector: #main h1]
+17:39:46.869 INFO - Executing: [get text: 14 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: #main h1]])
+17:39:46.884 INFO - Done: [get text: 14 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: #main h1]]
+17:39:46.898 INFO - Executing: [get: http://computer-database.herokuapp.com/computers/new])
+17:39:47.119 INFO - Done: [get: http://computer-database.herokuapp.com/computers/new]
+17:39:47.123 INFO - Executing: [find elements: By.cssSelector: body])
+17:39:47.134 INFO - Done: [find elements: By.cssSelector: body]
+17:39:47.137 INFO - Executing: [is displayed: 15 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: body]])
+17:39:47.150 INFO - Done: [is displayed: 15 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: body]]
+17:39:47.153 INFO - Executing: [find element: By.cssSelector: input[id="name"]])
+17:39:47.162 INFO - Done: [find element: By.cssSelector: input[id="name"]]
+17:39:47.165 INFO - Executing: [send keys: 16 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="name"]], []])
+17:39:47.194 INFO - Done: [send keys: 16 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="name"]], []]
+17:39:47.197 INFO - Executing: [find element: By.cssSelector: input[id="introduced"]])
+17:39:47.205 INFO - Done: [find element: By.cssSelector: input[id="introduced"]]
+17:39:47.208 INFO - Executing: [send keys: 17 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="introduced"]], [2, 0, 1, 4, -, 0, 5, -, 2, 1]])
+17:39:47.264 INFO - Done: [send keys: 17 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="introduced"]], [2, 0, 1, 4, -, 0, 5, -, 2, 1]]
+17:39:47.267 INFO - Executing: [find element: By.cssSelector: input[id="discontinued"]])
+17:39:47.275 INFO - Done: [find element: By.cssSelector: input[id="discontinued"]]
+17:39:47.279 INFO - Executing: [send keys: 18 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="discontinued"]], [2, 0, 1, 6, -, 0, 5, -, 2, 3]])
+17:39:47.310 INFO - Done: [send keys: 18 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="discontinued"]], [2, 0, 1, 6, -, 0, 5, -, 2, 3]]
+17:39:47.313 INFO - Executing: [find element: By.cssSelector: select[id="company"] option[value="1"]])
+17:39:47.321 INFO - Done: [find element: By.cssSelector: select[id="company"] option[value="1"]]
+17:39:47.323 INFO - Executing: [click: 19 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: select[id="company"] option[value="1"]]])
+17:39:47.356 INFO - Done: [click: 19 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: select[id="company"] option[value="1"]]]
+17:39:47.359 INFO - Executing: [find element: By.cssSelector: input[value="Create this computer"]])
+17:39:47.367 INFO - Done: [find element: By.cssSelector: input[value="Create this computer"]]
+17:39:47.370 INFO - Executing: [click: 20 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[value="Create this computer"]]])
+17:39:47.706 INFO - Done: [click: 20 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[value="Create this computer"]]]
+17:39:47.713 INFO - Executing: [find element: By.cssSelector: div.clearfix])
+17:39:47.725 INFO - Done: [find element: By.cssSelector: div.clearfix]
+17:39:47.729 INFO - Executing: [get element attribute: 21 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: div.clearfix], class])
+17:39:47.739 INFO - Done: [get element attribute: 21 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: div.clearfix], class]
+17:39:47.757 INFO - Executing: [get: http://computer-database.herokuapp.com/computers])
+17:39:47.973 INFO - Done: [get: http://computer-database.herokuapp.com/computers]
+17:39:47.977 INFO - Executing: [find elements: By.cssSelector: body])
+17:39:47.986 INFO - Done: [find elements: By.cssSelector: body]
+17:39:47.988 INFO - Executing: [is displayed: 22 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: body]])
+17:39:48.002 INFO - Done: [is displayed: 22 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: body]]
+17:39:48.005 INFO - Executing: [find element: By.cssSelector: #main h1])
+17:39:48.013 INFO - Done: [find element: By.cssSelector: #main h1]
+17:39:48.015 INFO - Executing: [get text: 23 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: #main h1]])
+17:39:48.029 INFO - Done: [get text: 23 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: #main h1]]
+17:39:48.034 INFO - Executing: [get: http://computer-database.herokuapp.com/computers/new])
+17:39:48.254 INFO - Done: [get: http://computer-database.herokuapp.com/computers/new]
+17:39:48.257 INFO - Executing: [find elements: By.cssSelector: body])
+17:39:48.265 INFO - Done: [find elements: By.cssSelector: body]
+17:39:48.268 INFO - Executing: [is displayed: 24 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: body]])
+17:39:48.283 INFO - Done: [is displayed: 24 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: body]]
+17:39:48.287 INFO - Executing: [find element: By.cssSelector: input[id="name"]])
+17:39:48.295 INFO - Done: [find element: By.cssSelector: input[id="name"]]
+17:39:48.298 INFO - Executing: [send keys: 25 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="name"]], []])
+17:39:48.327 INFO - Done: [send keys: 25 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="name"]], []]
+17:39:48.330 INFO - Executing: [find element: By.cssSelector: input[id="introduced"]])
+17:39:48.340 INFO - Done: [find element: By.cssSelector: input[id="introduced"]]
+17:39:48.344 INFO - Executing: [send keys: 26 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="introduced"]], [2, 0, 1, 4, -, 0, 5, -, 2, 3]])
+17:39:48.374 INFO - Done: [send keys: 26 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="introduced"]], [2, 0, 1, 4, -, 0, 5, -, 2, 3]]
+17:39:48.378 INFO - Executing: [find element: By.cssSelector: input[id="discontinued"]])
+17:39:48.387 INFO - Done: [find element: By.cssSelector: input[id="discontinued"]]
+17:39:48.391 INFO - Executing: [send keys: 27 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="discontinued"]], [2, 0, 1, 6, -, 0, 5, -, 2, 3]])
+17:39:48.424 INFO - Done: [send keys: 27 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="discontinued"]], [2, 0, 1, 6, -, 0, 5, -, 2, 3]]
+17:39:48.428 INFO - Executing: [find element: By.cssSelector: select[id="company"] option[value="1"]])
+17:39:48.450 INFO - Done: [find element: By.cssSelector: select[id="company"] option[value="1"]]
+17:39:48.455 INFO - Executing: [click: 28 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: select[id="company"] option[value="1"]]])
+17:39:48.486 INFO - Done: [click: 28 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: select[id="company"] option[value="1"]]]
+17:39:48.492 INFO - Executing: [find element: By.cssSelector: a[href="/computers"]])
+17:39:48.504 INFO - Done: [find element: By.cssSelector: a[href="/computers"]]
+17:39:48.507 INFO - Executing: [click: 29 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: a[href="/computers"]]])
+17:39:48.742 INFO - Done: [click: 29 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: a[href="/computers"]]]
+17:39:48.748 INFO - Executing: [find element: By.cssSelector: #main])
+17:39:48.755 INFO - Done: [find element: By.cssSelector: #main]
+17:39:48.758 INFO - Executing: [get text: 30 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: #main]])
+17:39:48.787 INFO - Done: [get text: 30 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: #main]]
+17:39:48.792 INFO - Executing: [find element: By.cssSelector: #main h1])
+17:39:48.802 INFO - Done: [find element: By.cssSelector: #main h1]
+17:39:48.806 INFO - Executing: [get text: 31 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: #main h1]])
+17:39:48.820 INFO - Done: [get text: 31 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: #main h1]]
+17:39:48.842 INFO - Executing: [get: http://computer-database.herokuapp.com/computers/new])
+17:39:49.058 INFO - Done: [get: http://computer-database.herokuapp.com/computers/new]
+17:39:49.061 INFO - Executing: [find elements: By.cssSelector: body])
+17:39:49.069 INFO - Done: [find elements: By.cssSelector: body]
+17:39:49.071 INFO - Executing: [is displayed: 32 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: body]])
+17:39:49.085 INFO - Done: [is displayed: 32 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: body]]
+17:39:49.088 INFO - Executing: [find element: By.cssSelector: input[id="name"]])
+17:39:49.095 INFO - Done: [find element: By.cssSelector: input[id="name"]]
+17:39:49.098 INFO - Executing: [send keys: 33 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="name"]], [t, e, s, t, d, e, l, e, t, e]])
+17:39:49.132 INFO - Done: [send keys: 33 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="name"]], [t, e, s, t, d, e, l, e, t, e]]
+17:39:49.136 INFO - Executing: [find element: By.cssSelector: input[value="Create this computer"]])
+17:39:49.170 INFO - Done: [find element: By.cssSelector: input[value="Create this computer"]]
+17:39:49.172 INFO - Executing: [click: 34 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[value="Create this computer"]]])
+17:39:49.609 INFO - Done: [click: 34 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[value="Create this computer"]]]
+17:39:49.615 INFO - Executing: [find element: By.cssSelector: input[type=search]])
+17:39:49.622 INFO - Done: [find element: By.cssSelector: input[type=search]]
+17:39:49.625 INFO - Executing: [send keys: 35 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[type=search]], [t, e, s, t, d, e, l, e, t, e]])
+17:39:49.659 INFO - Done: [send keys: 35 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[type=search]], [t, e, s, t, d, e, l, e, t, e]]
+17:39:49.662 INFO - Executing: [find element: By.cssSelector: input[id="searchsubmit"]])
+17:39:49.671 INFO - Done: [find element: By.cssSelector: input[id="searchsubmit"]]
+17:39:49.674 INFO - Executing: [click: 36 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="searchsubmit"]]])
+17:39:49.907 INFO - Done: [click: 36 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="searchsubmit"]]]
+17:39:49.910 INFO - Executing: [find elements: By.cssSelector: body])
+17:39:49.918 INFO - Done: [find elements: By.cssSelector: body]
+17:39:49.920 INFO - Executing: [is displayed: 37 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: body]])
+17:39:49.934 INFO - Done: [is displayed: 37 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: body]]
+17:39:49.937 INFO - Executing: [find element: By.cssSelector: #main table.computers.zebra-striped tbody tr td a])
+17:39:49.948 INFO - Done: [find element: By.cssSelector: #main table.computers.zebra-striped tbody tr td a]
+17:39:49.950 INFO - Executing: [get element attribute: 38 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: #main table.computers.zebra-striped tbody tr td a], href])
+17:39:49.961 INFO - Done: [get element attribute: 38 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: #main table.computers.zebra-striped tbody tr td a], href]
+17:39:49.964 INFO - Executing: [get: http://computer-database.herokuapp.com/computers/686])
+17:39:50.180 INFO - Done: [get: http://computer-database.herokuapp.com/computers/686]
+17:39:50.183 INFO - Executing: [find element: By.cssSelector: input[value="Delete this computer"]])
+17:39:50.194 INFO - Done: [find element: By.cssSelector: input[value="Delete this computer"]]
+17:39:50.196 INFO - Executing: [click: 39 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[value="Delete this computer"]]])
+17:39:50.527 INFO - Done: [click: 39 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[value="Delete this computer"]]]
+17:39:50.534 INFO - Executing: [find element: By.cssSelector: #main])
+17:39:50.542 INFO - Done: [find element: By.cssSelector: #main]
+17:39:50.544 INFO - Executing: [get text: 40 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: #main]])
+17:39:50.574 INFO - Done: [get text: 40 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: #main]]
+17:39:50.578 INFO - Executing: [find element: By.cssSelector: input[type=search]])
+17:39:50.588 INFO - Done: [find element: By.cssSelector: input[type=search]]
+17:39:50.591 INFO - Executing: [send keys: 41 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[type=search]], [t, e, s, t, d, e, l, e, t, e]])
+17:39:50.625 INFO - Done: [send keys: 41 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[type=search]], [t, e, s, t, d, e, l, e, t, e]]
+17:39:50.628 INFO - Executing: [find element: By.cssSelector: input[id="searchsubmit"]])
+17:39:50.639 INFO - Done: [find element: By.cssSelector: input[id="searchsubmit"]]
+17:39:50.641 INFO - Executing: [click: 42 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="searchsubmit"]]])
+17:39:50.875 INFO - Done: [click: 42 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="searchsubmit"]]]
+17:39:50.882 INFO - Executing: [find element: By.cssSelector: #main])
+17:39:50.889 INFO - Done: [find element: By.cssSelector: #main]
+17:39:50.891 INFO - Executing: [get text: 43 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: #main]])
+17:39:50.907 INFO - Done: [get text: 43 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: #main]]
+17:39:50.916 INFO - Executing: [get: http://computer-database.herokuapp.com/computers])
+17:39:51.134 INFO - Done: [get: http://computer-database.herokuapp.com/computers]
+17:39:51.138 INFO - Executing: [find elements: By.cssSelector: body])
+17:39:51.146 INFO - Done: [find elements: By.cssSelector: body]
+17:39:51.148 INFO - Executing: [is displayed: 44 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: body]])
+17:39:51.161 INFO - Done: [is displayed: 44 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: body]]
+17:39:51.165 INFO - Executing: [find element: By.cssSelector: input[type=search]])
+17:39:51.172 INFO - Done: [find element: By.cssSelector: input[type=search]]
+17:39:51.174 INFO - Executing: [send keys: 45 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[type=search]], [I, B, M]])
+17:39:51.207 INFO - Done: [send keys: 45 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[type=search]], [I, B, M]]
+17:39:51.209 INFO - Executing: [find element: By.cssSelector: input[id="searchsubmit"]])
+17:39:51.218 INFO - Done: [find element: By.cssSelector: input[id="searchsubmit"]]
+17:39:51.222 INFO - Executing: [click: 46 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="searchsubmit"]]])
+17:39:51.455 INFO - Done: [click: 46 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="searchsubmit"]]]
+17:39:51.462 INFO - Executing: [find element: By.cssSelector: #main])
+17:39:51.469 INFO - Done: [find element: By.cssSelector: #main]
+17:39:51.471 INFO - Executing: [get text: 47 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: #main]])
+17:39:51.502 INFO - Done: [get text: 47 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: #main]]
+17:39:51.507 INFO - Executing: [get: http://computer-database.herokuapp.com/computers])
+17:39:51.727 INFO - Done: [get: http://computer-database.herokuapp.com/computers]
+17:39:51.731 INFO - Executing: [find elements: By.cssSelector: body])
+17:39:51.738 INFO - Done: [find elements: By.cssSelector: body]
+17:39:51.740 INFO - Executing: [is displayed: 48 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: body]])
+17:39:51.753 INFO - Done: [is displayed: 48 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: body]]
+17:39:51.757 INFO - Executing: [find element: By.cssSelector: input[type=search]])
+17:39:51.766 INFO - Done: [find element: By.cssSelector: input[type=search]]
+17:39:51.770 INFO - Executing: [send keys: 49 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[type=search]], [h, e, r, o, k, u, a, p, p]])
+17:39:51.842 INFO - Done: [send keys: 49 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[type=search]], [h, e, r, o, k, u, a, p, p]]
+17:39:51.845 INFO - Executing: [find element: By.cssSelector: input[id="searchsubmit"]])
+17:39:51.852 INFO - Done: [find element: By.cssSelector: input[id="searchsubmit"]]
+17:39:51.854 INFO - Executing: [click: 50 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="searchsubmit"]]])
+17:39:52.087 INFO - Done: [click: 50 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="searchsubmit"]]]
+17:39:52.092 INFO - Executing: [find element: By.cssSelector: #main])
+17:39:52.100 INFO - Done: [find element: By.cssSelector: #main]
+17:39:52.102 INFO - Executing: [get text: 51 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: #main]])
+17:39:52.117 INFO - Done: [get text: 51 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: #main]]
+17:39:52.125 INFO - Executing: [get: http://computer-database.herokuapp.com/computers/new])
+17:39:52.344 INFO - Done: [get: http://computer-database.herokuapp.com/computers/new]
+17:39:52.347 INFO - Executing: [find elements: By.cssSelector: body])
+17:39:52.354 INFO - Done: [find elements: By.cssSelector: body]
+17:39:52.356 INFO - Executing: [is displayed: 52 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: body]])
+17:39:52.369 INFO - Done: [is displayed: 52 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: body]]
+17:39:52.372 INFO - Executing: [find element: By.cssSelector: input[id="name"]])
+17:39:52.379 INFO - Done: [find element: By.cssSelector: input[id="name"]]
+17:39:52.383 INFO - Executing: [send keys: 53 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="name"]], [T, e, s, t, M, O, S, 6]])
+17:39:52.413 INFO - Done: [send keys: 53 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="name"]], [T, e, s, t, M, O, S, 6]]
+17:39:52.416 INFO - Executing: [find element: By.cssSelector: input[id="introduced"]])
+17:39:52.423 INFO - Done: [find element: By.cssSelector: input[id="introduced"]]
+17:39:52.425 INFO - Executing: [send keys: 54 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="introduced"]], [2, 0, 1, 7, -, 0, 6, -, 1, 6]])
+17:39:52.456 INFO - Done: [send keys: 54 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="introduced"]], [2, 0, 1, 7, -, 0, 6, -, 1, 6]]
+17:39:52.458 INFO - Executing: [find element: By.cssSelector: input[id="discontinued"]])
+17:39:52.466 INFO - Done: [find element: By.cssSelector: input[id="discontinued"]]
+17:39:52.468 INFO - Executing: [send keys: 55 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="discontinued"]], [2, 0, 1, 7, -, 0, 6, -, 1, 6]])
+17:39:52.498 INFO - Done: [send keys: 55 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="discontinued"]], [2, 0, 1, 7, -, 0, 6, -, 1, 6]]
+17:39:52.501 INFO - Executing: [find element: By.cssSelector: select[id="company"] option[value="7"]])
+17:39:52.511 INFO - Done: [find element: By.cssSelector: select[id="company"] option[value="7"]]
+17:39:52.514 INFO - Executing: [click: 56 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: select[id="company"] option[value="7"]]])
+17:39:52.549 INFO - Done: [click: 56 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: select[id="company"] option[value="7"]]]
+17:39:52.552 INFO - Executing: [find element: By.cssSelector: input[value="Create this computer"]])
+17:39:52.559 INFO - Done: [find element: By.cssSelector: input[value="Create this computer"]]
+17:39:52.562 INFO - Executing: [click: 57 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[value="Create this computer"]]])
+17:39:52.997 INFO - Done: [click: 57 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[value="Create this computer"]]]
+17:39:53.010 INFO - Executing: [find element: By.cssSelector: input[type=search]])
+17:39:53.018 INFO - Done: [find element: By.cssSelector: input[type=search]]
+17:39:53.021 INFO - Executing: [send keys: 58 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[type=search]], [M, O, S,  , t, e, c, h, n, o, l, o, g, y]])
+17:39:53.061 INFO - Done: [send keys: 58 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[type=search]], [M, O, S,  , t, e, c, h, n, o, l, o, g, y]]
+17:39:53.063 INFO - Executing: [find element: By.cssSelector: input[id="searchsubmit"]])
+17:39:53.070 INFO - Done: [find element: By.cssSelector: input[id="searchsubmit"]]
+17:39:53.079 INFO - Executing: [click: 59 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="searchsubmit"]]])
+17:39:53.311 INFO - Done: [click: 59 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="searchsubmit"]]]
+17:39:53.325 INFO - Executing: [find element: By.cssSelector: #main])
+17:39:53.333 INFO - Done: [find element: By.cssSelector: #main]
+17:39:53.335 INFO - Executing: [get text: 60 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: #main]])
+17:39:53.350 INFO - Done: [get text: 60 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: #main]]
+17:39:53.363 INFO - Executing: [get: http://computer-database.herokuapp.com/computers/new])
+17:39:53.579 INFO - Done: [get: http://computer-database.herokuapp.com/computers/new]
+17:39:53.582 INFO - Executing: [find elements: By.cssSelector: body])
+17:39:53.590 INFO - Done: [find elements: By.cssSelector: body]
+17:39:53.592 INFO - Executing: [is displayed: 61 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: body]])
+17:39:53.606 INFO - Done: [is displayed: 61 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: body]]
+17:39:53.608 INFO - Executing: [find element: By.cssSelector: input[id="name"]])
+17:39:53.615 INFO - Done: [find element: By.cssSelector: input[id="name"]]
+17:39:53.617 INFO - Executing: [send keys: 62 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="name"]], [T, e, s, t, 1, 0, 1, 1]])
+17:39:53.648 INFO - Done: [send keys: 62 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="name"]], [T, e, s, t, 1, 0, 1, 1]]
+17:39:53.651 INFO - Executing: [find element: By.cssSelector: input[value="Create this computer"]])
+17:39:53.658 INFO - Done: [find element: By.cssSelector: input[value="Create this computer"]]
+17:39:53.660 INFO - Executing: [click: 63 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[value="Create this computer"]]])
+17:39:54.497 INFO - Done: [click: 63 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[value="Create this computer"]]]
+17:39:54.502 INFO - Executing: [find element: By.cssSelector: input[type=search]])
+17:39:54.511 INFO - Done: [find element: By.cssSelector: input[type=search]]
+17:39:54.514 INFO - Executing: [send keys: 64 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[type=search]], [T, e, s, t, 1, 0, 1, 1]])
+17:39:54.584 INFO - Done: [send keys: 64 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[type=search]], [T, e, s, t, 1, 0, 1, 1]]
+17:39:54.586 INFO - Executing: [find element: By.cssSelector: input[id="searchsubmit"]])
+17:39:54.595 INFO - Done: [find element: By.cssSelector: input[id="searchsubmit"]]
+17:39:54.597 INFO - Executing: [click: 65 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="searchsubmit"]]])
+17:39:54.832 INFO - Done: [click: 65 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="searchsubmit"]]]
+17:39:54.836 INFO - Executing: [find element: By.cssSelector: #main])
+17:39:54.843 INFO - Done: [find element: By.cssSelector: #main]
+17:39:54.847 INFO - Executing: [get text: 66 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: #main]])
+17:39:54.885 INFO - Done: [get text: 66 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: #main]]
+17:39:54.894 INFO - Executing: [get: http://computer-database.herokuapp.com/computers/new])
+17:39:55.110 INFO - Done: [get: http://computer-database.herokuapp.com/computers/new]
+17:39:55.112 INFO - Executing: [find elements: By.cssSelector: body])
+17:39:55.120 INFO - Done: [find elements: By.cssSelector: body]
+17:39:55.122 INFO - Executing: [is displayed: 67 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: body]])
+17:39:55.136 INFO - Done: [is displayed: 67 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: body]]
+17:39:55.139 INFO - Executing: [find element: By.cssSelector: input[id="name"]])
+17:39:55.147 INFO - Done: [find element: By.cssSelector: input[id="name"]]
+17:39:55.149 INFO - Executing: [send keys: 68 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="name"]], [3, 4, 2, 0, 5, 2, 2, 1]])
+17:39:55.177 INFO - Done: [send keys: 68 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="name"]], [3, 4, 2, 0, 5, 2, 2, 1]]
+17:39:55.180 INFO - Executing: [find element: By.cssSelector: input[id="introduced"]])
+17:39:55.187 INFO - Done: [find element: By.cssSelector: input[id="introduced"]]
+17:39:55.189 INFO - Executing: [send keys: 69 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="introduced"]], [2, 0, 1, 4, -, 0, 5, -, 2, 1]])
+17:39:55.218 INFO - Done: [send keys: 69 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="introduced"]], [2, 0, 1, 4, -, 0, 5, -, 2, 1]]
+17:39:55.221 INFO - Executing: [find element: By.cssSelector: input[id="discontinued"]])
+17:39:55.228 INFO - Done: [find element: By.cssSelector: input[id="discontinued"]]
+17:39:55.231 INFO - Executing: [send keys: 70 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="discontinued"]], [2, 0, 1, 6, -, 0, 5, -, 2, 3]])
+17:39:55.261 INFO - Done: [send keys: 70 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="discontinued"]], [2, 0, 1, 6, -, 0, 5, -, 2, 3]]
+17:39:55.263 INFO - Executing: [find element: By.cssSelector: select[id="company"] option[value="1"]])
+17:39:55.271 INFO - Done: [find element: By.cssSelector: select[id="company"] option[value="1"]]
+17:39:55.272 INFO - Executing: [click: 71 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: select[id="company"] option[value="1"]]])
+17:39:55.304 INFO - Done: [click: 71 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: select[id="company"] option[value="1"]]]
+17:39:55.306 INFO - Executing: [find element: By.cssSelector: input[value="Create this computer"]])
+17:39:55.314 INFO - Done: [find element: By.cssSelector: input[value="Create this computer"]]
+17:39:55.316 INFO - Executing: [click: 72 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[value="Create this computer"]]])
+17:39:55.748 INFO - Done: [click: 72 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[value="Create this computer"]]]
+17:39:55.753 INFO - Executing: [get: http://computer-database.herokuapp.com/computers])
+17:39:55.968 INFO - Done: [get: http://computer-database.herokuapp.com/computers]
+17:39:55.971 INFO - Executing: [find elements: By.cssSelector: body])
+17:39:55.979 INFO - Done: [find elements: By.cssSelector: body]
+17:39:55.981 INFO - Executing: [is displayed: 73 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: body]])
+17:39:55.994 INFO - Done: [is displayed: 73 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: body]]
+17:39:55.996 INFO - Executing: [find element: By.cssSelector: #main h1])
+17:39:56.004 INFO - Done: [find element: By.cssSelector: #main h1]
+17:39:56.006 INFO - Executing: [get text: 74 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: #main h1]])
+17:39:56.019 INFO - Done: [get text: 74 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: #main h1]]
+17:39:56.026 INFO - Executing: [find element: By.cssSelector: input[type=search]])
+17:39:56.033 INFO - Done: [find element: By.cssSelector: input[type=search]]
+17:39:56.035 INFO - Executing: [send keys: 75 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[type=search]], [3, 4, 2, 0, 5, 2, 2, 1]])
+17:39:56.069 INFO - Done: [send keys: 75 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[type=search]], [3, 4, 2, 0, 5, 2, 2, 1]]
+17:39:56.071 INFO - Executing: [find element: By.cssSelector: input[id="searchsubmit"]])
+17:39:56.078 INFO - Done: [find element: By.cssSelector: input[id="searchsubmit"]]
+17:39:56.080 INFO - Executing: [click: 76 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="searchsubmit"]]])
+17:39:56.314 INFO - Done: [click: 76 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="searchsubmit"]]]
+17:39:56.316 INFO - Executing: [find elements: By.cssSelector: body])
+17:39:56.324 INFO - Done: [find elements: By.cssSelector: body]
+17:39:56.326 INFO - Executing: [is displayed: 77 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: body]])
+17:39:56.340 INFO - Done: [is displayed: 77 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: body]]
+17:39:56.343 INFO - Executing: [find element: By.cssSelector: #main table.computers.zebra-striped tbody tr td a])
+17:39:56.375 INFO - Done: [find element: By.cssSelector: #main table.computers.zebra-striped tbody tr td a]
+17:39:56.377 INFO - Executing: [get element attribute: 78 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: #main table.computers.zebra-striped tbody tr td a], href])
+17:39:56.388 INFO - Done: [get element attribute: 78 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: #main table.computers.zebra-striped tbody tr td a], href]
+17:39:56.391 INFO - Executing: [get: http://computer-database.herokuapp.com/computers/685])
+17:39:57.110 INFO - Done: [get: http://computer-database.herokuapp.com/computers/685]
+17:39:57.117 INFO - Executing: [find element: By.cssSelector: input[value="Save this computer"]])
+17:39:57.129 INFO - Done: [find element: By.cssSelector: input[value="Save this computer"]]
+17:39:57.131 INFO - Executing: [click: 79 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[value="Save this computer"]]])
+17:39:57.568 INFO - Done: [click: 79 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[value="Save this computer"]]]
+17:39:57.572 INFO - Executing: [find element: By.cssSelector: input[type=search]])
+17:39:57.579 INFO - Done: [find element: By.cssSelector: input[type=search]]
+17:39:57.582 INFO - Executing: [send keys: 80 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[type=search]], [3, 4, 2, 0, 5, 2, 2, 1]])
+17:39:57.615 INFO - Done: [send keys: 80 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[type=search]], [3, 4, 2, 0, 5, 2, 2, 1]]
+17:39:57.617 INFO - Executing: [find element: By.cssSelector: input[id="searchsubmit"]])
+17:39:57.625 INFO - Done: [find element: By.cssSelector: input[id="searchsubmit"]]
+17:39:57.627 INFO - Executing: [click: 81 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="searchsubmit"]]])
+17:39:57.863 INFO - Done: [click: 81 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="searchsubmit"]]]
+17:39:57.866 INFO - Executing: [find element: By.cssSelector: #main table.computers.zebra-striped tbody tr td a])
+17:39:57.873 INFO - Done: [find element: By.cssSelector: #main table.computers.zebra-striped tbody tr td a]
+17:39:57.875 INFO - Executing: [get element attribute: 82 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: #main table.computers.zebra-striped tbody tr td a], href])
+17:39:57.886 INFO - Done: [get element attribute: 82 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: #main table.computers.zebra-striped tbody tr td a], href]
+17:39:57.889 INFO - Executing: [get: http://computer-database.herokuapp.com/computers/685])
+17:39:58.106 INFO - Done: [get: http://computer-database.herokuapp.com/computers/685]
+17:39:58.108 INFO - Executing: [find elements: By.cssSelector: input[id="name"]])
+17:39:58.120 INFO - Done: [find elements: By.cssSelector: input[id="name"]]
+17:39:58.122 INFO - Executing: [get element attribute: 83 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="name"]], value])
+17:39:58.133 INFO - Done: [get element attribute: 83 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="name"]], value]
+17:39:58.138 INFO - Executing: [find elements: By.cssSelector: input[id="introduced"]])
+17:39:58.149 INFO - Done: [find elements: By.cssSelector: input[id="introduced"]]
+17:39:58.151 INFO - Executing: [get element attribute: 84 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="introduced"]], value])
+17:39:58.161 INFO - Done: [get element attribute: 84 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="introduced"]], value]
+17:39:58.165 INFO - Executing: [find elements: By.cssSelector: input[id="discontinued"]])
+17:39:58.179 INFO - Done: [find elements: By.cssSelector: input[id="discontinued"]]
+17:39:58.181 INFO - Executing: [get element attribute: 85 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="discontinued"]], value])
+17:39:58.192 INFO - Done: [get element attribute: 85 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="discontinued"]], value]
+17:39:58.202 INFO - Executing: [get: http://computer-database.herokuapp.com/computers/new])
+17:39:58.418 INFO - Done: [get: http://computer-database.herokuapp.com/computers/new]
+17:39:58.420 INFO - Executing: [find elements: By.cssSelector: body])
+17:39:58.428 INFO - Done: [find elements: By.cssSelector: body]
+17:39:58.430 INFO - Executing: [is displayed: 86 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: body]])
+17:39:58.444 INFO - Done: [is displayed: 86 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: body]]
+17:39:58.446 INFO - Executing: [find element: By.cssSelector: input[id="name"]])
+17:39:58.454 INFO - Done: [find element: By.cssSelector: input[id="name"]]
+17:39:58.457 INFO - Executing: [send keys: 87 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="name"]], [3, 4, 2, 0, 5, 2, 2, 1]])
+17:39:58.490 INFO - Done: [send keys: 87 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="name"]], [3, 4, 2, 0, 5, 2, 2, 1]]
+17:39:58.492 INFO - Executing: [find element: By.cssSelector: input[id="introduced"]])
+17:39:58.499 INFO - Done: [find element: By.cssSelector: input[id="introduced"]]
+17:39:58.504 INFO - Executing: [send keys: 88 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="introduced"]], [2, 0, 1, 4, -, 0, 5, -, 2, 1]])
+17:39:58.533 INFO - Done: [send keys: 88 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="introduced"]], [2, 0, 1, 4, -, 0, 5, -, 2, 1]]
+17:39:58.536 INFO - Executing: [find element: By.cssSelector: input[id="discontinued"]])
+17:39:58.543 INFO - Done: [find element: By.cssSelector: input[id="discontinued"]]
+17:39:58.545 INFO - Executing: [send keys: 89 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="discontinued"]], [2, 0, 1, 6, -, 0, 5, -, 2, 3]])
+17:39:58.574 INFO - Done: [send keys: 89 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="discontinued"]], [2, 0, 1, 6, -, 0, 5, -, 2, 3]]
+17:39:58.576 INFO - Executing: [find element: By.cssSelector: select[id="company"] option[value="1"]])
+17:39:58.583 INFO - Done: [find element: By.cssSelector: select[id="company"] option[value="1"]]
+17:39:58.585 INFO - Executing: [click: 90 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: select[id="company"] option[value="1"]]])
+17:39:58.617 INFO - Done: [click: 90 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: select[id="company"] option[value="1"]]]
+17:39:58.619 INFO - Executing: [find element: By.cssSelector: input[value="Create this computer"]])
+17:39:58.626 INFO - Done: [find element: By.cssSelector: input[value="Create this computer"]]
+17:39:58.628 INFO - Executing: [click: 91 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[value="Create this computer"]]])
+17:39:59.062 INFO - Done: [click: 91 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[value="Create this computer"]]]
+17:39:59.067 INFO - Executing: [get: http://computer-database.herokuapp.com/computers])
+17:39:59.284 INFO - Done: [get: http://computer-database.herokuapp.com/computers]
+17:39:59.286 INFO - Executing: [find elements: By.cssSelector: body])
+17:39:59.294 INFO - Done: [find elements: By.cssSelector: body]
+17:39:59.296 INFO - Executing: [is displayed: 92 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: body]])
+17:39:59.310 INFO - Done: [is displayed: 92 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: body]]
+17:39:59.312 INFO - Executing: [find element: By.cssSelector: #main h1])
+17:39:59.345 INFO - Done: [find element: By.cssSelector: #main h1]
+17:39:59.347 INFO - Executing: [get text: 93 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: #main h1]])
+17:39:59.362 INFO - Done: [get text: 93 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: #main h1]]
+17:39:59.365 INFO - Executing: [find element: By.cssSelector: input[type=search]])
+17:39:59.373 INFO - Done: [find element: By.cssSelector: input[type=search]]
+17:39:59.375 INFO - Executing: [send keys: 94 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[type=search]], [3, 4, 2, 0, 5, 2, 2, 1]])
+17:39:59.410 INFO - Done: [send keys: 94 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[type=search]], [3, 4, 2, 0, 5, 2, 2, 1]]
+17:39:59.414 INFO - Executing: [find element: By.cssSelector: input[id="searchsubmit"]])
+17:39:59.423 INFO - Done: [find element: By.cssSelector: input[id="searchsubmit"]]
+17:39:59.425 INFO - Executing: [click: 95 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="searchsubmit"]]])
+17:39:59.656 INFO - Done: [click: 95 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="searchsubmit"]]]
+17:39:59.658 INFO - Executing: [find elements: By.cssSelector: body])
+17:39:59.666 INFO - Done: [find elements: By.cssSelector: body]
+17:39:59.667 INFO - Executing: [is displayed: 96 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: body]])
+17:39:59.681 INFO - Done: [is displayed: 96 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: body]]
+17:39:59.683 INFO - Executing: [find element: By.cssSelector: #main table.computers.zebra-striped tbody tr td a])
+17:39:59.690 INFO - Done: [find element: By.cssSelector: #main table.computers.zebra-striped tbody tr td a]
+17:39:59.692 INFO - Executing: [get element attribute: 97 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: #main table.computers.zebra-striped tbody tr td a], href])
+17:39:59.703 INFO - Done: [get element attribute: 97 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: #main table.computers.zebra-striped tbody tr td a], href]
+17:39:59.705 INFO - Executing: [get: http://computer-database.herokuapp.com/computers/685])
+17:39:59.920 INFO - Done: [get: http://computer-database.herokuapp.com/computers/685]
+17:39:59.925 INFO - Executing: [find element: By.cssSelector: input[id="name"]])
+17:39:59.932 INFO - Done: [find element: By.cssSelector: input[id="name"]]
+17:39:59.934 INFO - Executing: [clear: 98 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="name"]]])
+17:39:59.952 INFO - Done: [clear: 98 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="name"]]]
+17:39:59.953 INFO - Executing: [find element: By.cssSelector: input[id="introduced"]])
+17:39:59.963 INFO - Done: [find element: By.cssSelector: input[id="introduced"]]
+17:39:59.965 INFO - Executing: [clear: 99 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="introduced"]]])
+17:39:59.984 INFO - Done: [clear: 99 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="introduced"]]]
+17:39:59.987 INFO - Executing: [find element: By.cssSelector: input[id="discontinued"]])
+17:39:59.995 INFO - Done: [find element: By.cssSelector: input[id="discontinued"]]
+17:39:59.996 INFO - Executing: [clear: 100 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="discontinued"]]])
+17:40:00.015 INFO - Done: [clear: 100 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="discontinued"]]]
+17:40:00.018 INFO - Executing: [find element: By.cssSelector: input[id="name"]])
+17:40:00.026 INFO - Done: [find element: By.cssSelector: input[id="name"]]
+17:40:00.028 INFO - Executing: [send keys: 98 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="name"]], [U, p, d, a, t, e, d, 1, 2, 3]])
+17:40:00.057 INFO - Done: [send keys: 98 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="name"]], [U, p, d, a, t, e, d, 1, 2, 3]]
+17:40:00.059 INFO - Executing: [find element: By.cssSelector: input[id="introduced"]])
+17:40:00.066 INFO - Done: [find element: By.cssSelector: input[id="introduced"]]
+17:40:00.068 INFO - Executing: [send keys: 99 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="introduced"]], [2, 0, 1, 5, -, 0, 6, -, 1, 4]])
+17:40:00.098 INFO - Done: [send keys: 99 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="introduced"]], [2, 0, 1, 5, -, 0, 6, -, 1, 4]]
+17:40:00.100 INFO - Executing: [find element: By.cssSelector: input[id="discontinued"]])
+17:40:00.107 INFO - Done: [find element: By.cssSelector: input[id="discontinued"]]
+17:40:00.109 INFO - Executing: [send keys: 100 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="discontinued"]], [2, 0, 1, 7, -, 0, 4, -, 1, 1]])
+17:40:00.138 INFO - Done: [send keys: 100 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="discontinued"]], [2, 0, 1, 7, -, 0, 4, -, 1, 1]]
+17:40:00.140 INFO - Executing: [find element: By.cssSelector: select[id="company"] option[value="1"]])
+17:40:00.147 INFO - Done: [find element: By.cssSelector: select[id="company"] option[value="1"]]
+17:40:00.149 INFO - Executing: [click: 101 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: select[id="company"] option[value="1"]]])
+17:40:00.181 INFO - Done: [click: 101 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: select[id="company"] option[value="1"]]]
+17:40:00.183 INFO - Executing: [find element: By.cssSelector: input[value="Save this computer"]])
+17:40:00.191 INFO - Done: [find element: By.cssSelector: input[value="Save this computer"]]
+17:40:00.193 INFO - Executing: [click: 102 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[value="Save this computer"]]])
+17:40:00.727 INFO - Done: [click: 102 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[value="Save this computer"]]]
+17:40:00.729 INFO - Executing: [find elements: By.cssSelector: body])
+17:40:00.737 INFO - Done: [find elements: By.cssSelector: body]
+17:40:00.738 INFO - Executing: [is displayed: 103 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: body]])
+17:40:00.776 INFO - Done: [is displayed: 103 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: body]]
+17:40:00.781 INFO - Executing: [find element: By.cssSelector: #main h1])
+17:40:00.789 INFO - Done: [find element: By.cssSelector: #main h1]
+17:40:00.792 INFO - Executing: [get text: 104 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: #main h1]])
+17:40:00.807 INFO - Done: [get text: 104 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: #main h1]]
+17:40:00.811 INFO - Executing: [find element: By.cssSelector: input[type=search]])
+17:40:00.821 INFO - Done: [find element: By.cssSelector: input[type=search]]
+17:40:00.823 INFO - Executing: [send keys: 105 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[type=search]], [U, p, d, a, t, e, d]])
+17:40:00.857 INFO - Done: [send keys: 105 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[type=search]], [U, p, d, a, t, e, d]]
+17:40:00.859 INFO - Executing: [find element: By.cssSelector: input[id="searchsubmit"]])
+17:40:00.870 INFO - Done: [find element: By.cssSelector: input[id="searchsubmit"]]
+17:40:00.872 INFO - Executing: [click: 106 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="searchsubmit"]]])
+17:40:01.103 INFO - Done: [click: 106 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: input[id="searchsubmit"]]]
+17:40:01.105 INFO - Executing: [find element: By.cssSelector: #main table.computers.zebra-striped tbody tr td a])
+17:40:01.120 INFO - Done: [find element: By.cssSelector: #main table.computers.zebra-striped tbody tr td a]
+17:40:01.122 INFO - Executing: [get element attribute: 107 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: #main table.computers.zebra-striped tbody tr td a], href])
+17:40:01.133 INFO - Done: [get element attribute: 107 [[PhantomJSDriver: phantomjs on OS X 10.11 (bb908750-5444-11e7-9ea6-7fdf42d53358)] -> css selector: #main table.computers.zebra-striped tbody tr td a], href]
+17:40:01.135 INFO - Executing: [get: http://computer-database.herokuapp.com/computers/655])
+17:40:01.351 INFO - Done: [get: http://computer-database.herokuapp.com/computers/655]
+17:40:01.370 INFO - Executing: [delete session: 656cc7e8-7b05-4eef-a348-68ddfcc565f4])
+[INFO  - 2017-06-18T16:40:01.378Z] ShutdownReqHand - _handle - About to shutdown
+17:40:01.428 INFO - Done: [delete session: 656cc7e8-7b05-4eef-a348-68ddfcc565f4]

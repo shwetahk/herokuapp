@@ -20,7 +20,7 @@ module.exports = {
   },
   test_settings: {
     default: {
-      launch_url: 'http://localhost:8087',
+      launch_url: 'http://computer-database.herokuapp.com/computers/new',
       selenium_port: 4444,
       selenium_host: '127.0.0.1',
       desiredCapabilities: {

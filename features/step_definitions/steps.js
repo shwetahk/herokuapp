@@ -4,7 +4,26 @@ const { defineSupportCode } = require('cucumber')
 defineSupportCode(({ Given, Then, When }) => {
 
   var uniqueName = Math.random().toString(6).substr(2,8)
-  console.log(uniqueName)
+
+  Given(/^There are a number of records existing in the DB$/,() =>{
+      return client
+        .url('http://computer-database.herokuapp.com/computers')
+        .waitForElementVisible('body',1000)
+        .getText("#main h1",(result,newNum1)=> {
+
+            var compNum = result.value
+
+            var num1 = compNum.match(/([0-9]+|one)/)
+            existingRecords = num1[1]
+          })
+
+      })
+
+  Then (/^the number of records should increase by "(.*?)"$/,(num)=>{
+      newVal = (+existingRecords)+(+num)
+      return client.assert.containsText("#main h1", newVal)
+
+  })
 
   Given(/^I open herokuapp`s search page$/, () => {
     return client
@@ -46,6 +65,20 @@ defineSupportCode(({ Given, Then, When }) => {
       .setValue('input[id="discontinued"]',myData[2][1])
       .click('select[id="company"] option[value="7"]')
       .click('input[value="Create this computer"]')
+  })
+
+  Given(/^I save the computer record with the following details in the DB$/,(table)=>{
+    var myData = table.raw()
+    return client
+      .clearValue('input[id="name"]')
+      .clearValue('input[id="introduced"]')
+      .clearValue('input[id="discontinued"]')
+      .setValue('input[id="name"]', myData[0][1])
+      .setValue('input[id="introduced"]',myData[1][1])
+      .setValue('input[id="discontinued"]',myData[2][1])
+      .click('select[id="company"] option[value="1"]')
+      .click('input[value="Save this computer"]')
+      .waitForElementVisible('body', 1000)
   })
 
   Given(/^I save a computer with the following name "(.*?)" in the DB$/,(computerName)=>{
@@ -125,6 +158,7 @@ defineSupportCode(({ Given, Then, When }) => {
       .waitForElementVisible('body', 1000)
       .getAttribute("#main table.computers.zebra-striped tbody tr td a","href", (result) =>{
         return client.url(result.value)
+
       })
   })
 
@@ -187,73 +221,4 @@ defineSupportCode(({ Given, Then, When }) => {
   Then (/^I see a confirmation that the record is deleted$/, () => {
     return client.assert.containsText("#main",'Computer has been deleted')
   })
-
-
-
-
-
-// }
-
-
-  // When(/^I edit the values as below$/, (table) =>{
-  //   var newData = table.raw()
-  //   return client
-  //     .url('http://computer-database.herokuapp.com/computers/new')
-  //     .waitForElementVisible('body', 1000)
-  //     .setValue('input[id="name"]', myData[0][1])
-  //     .setValue('input[id="introduced"]',myData[1][1])
-  //     .setValue('input[id="discontinued"]',myData[2][1])
-  //     .click('select[id="company"] option[value="7"]')
-  //     .click('input[value="Create this computer"]')
-
-  // })
-
-
-
-
-
-
-
-
-
-
-
-
-
-  // Given(/^I successfully save a record to the DB$/,() =>{
-  //   return client
-  //     .url('http://computer-database.herokuapp.com/computers')
-  //     .waitForElementVisible('body',1000)
-  //     .getText("#main h1",(result,newNum1)=> {
-
-  //         var compNum = result.value
-  //         var num1 = compNum.match(/([0-9]+|one)/)
-  //         var newNum1 = num1[1]
-  //         // console.log("newNum1",newNum1)
-  //       return client
-  //         .url('http://computer-database.herokuapp.com/computers/new')
-  //         .waitForElementVisible('body', 1000)
-  //         .setValue('input[id="name"]', "New1706")
-  //         .click('input[value="Create this computer"]')
-  //         .waitForElementVisible('body',1000)
-  //         .getRecordCount()
-  //         .getText("#main h1",(result,numNum2)=> {
-
-  //           var compNum1 = result.value
-  //           var num2 = compNum1.match(/([0-9]+|one)/i)
-  //           var newNum2 = num2[1]
-  //           // console.log("newNum2",newNum2)
-  //           if (newNum2 == 'One'){
-  //             this.
-  //           }
-
-
-  //           return console.log(newNum2,newNum1)
-  //          })
-  //          }
-  //     })
-  // })
-
-
-
 })

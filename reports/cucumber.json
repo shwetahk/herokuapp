@@ -8,7 +8,7 @@
     "elements": [
       {
         "keyword": "Scenario",
-        "line": 3,
+        "line": 6,
         "name": "Successfully add a record to the DB",
         "tags": [],
         "id": "computer-database---create-records;successfully-add-a-record-to-the-db",
@@ -16,14 +16,28 @@
           {
             "arguments": [],
             "keyword": "Given ",
+            "name": "There are a number of records existing in the DB",
+            "result": {
+              "status": "passed",
+              "duration": 2346
+            },
+            "isBackground": true,
+            "line": 4,
+            "match": {
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:8"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
             "name": "I save a valid computer record in the DB",
             "result": {
               "status": "passed",
-              "duration": 3367
+              "duration": 1045
             },
-            "line": 4,
+            "line": 7,
             "match": {
-              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:59"
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:92"
             }
           },
           {
@@ -32,11 +46,24 @@
             "name": "I should see the confirmation that the record has been saved",
             "result": {
               "status": "passed",
-              "duration": 62
+              "duration": 54
             },
-            "line": 5,
+            "line": 8,
             "match": {
-              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:70"
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:103"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the number of records should increase by \"1\"",
+            "result": {
+              "status": "passed",
+              "duration": 39
+            },
+            "line": 9,
+            "match": {
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:22"
             }
           },
           {
@@ -45,33 +72,47 @@
             "name": "I should be able to find the same record",
             "result": {
               "status": "passed",
-              "duration": 358
+              "duration": 460
             },
-            "line": 6,
+            "line": 10,
             "match": {
-              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:74"
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:107"
             }
           }
         ]
       },
       {
         "keyword": "Scenario",
-        "line": 8,
+        "line": 12,
         "name": "Add a record with incomplete information",
         "tags": [],
         "id": "computer-database---create-records;add-a-record-with-incomplete-information",
         "steps": [
           {
             "arguments": [],
+            "keyword": "Given ",
+            "name": "There are a number of records existing in the DB",
+            "result": {
+              "status": "passed",
+              "duration": 291
+            },
+            "isBackground": true,
+            "line": 4,
+            "match": {
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:8"
+            }
+          },
+          {
+            "arguments": [],
             "keyword": "When ",
             "name": "I save a computer record without a name to the computer database",
             "result": {
               "status": "passed",
-              "duration": 951
+              "duration": 820
             },
-            "line": 9,
+            "line": 13,
             "match": {
-              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:82"
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:115"
             }
           },
           {
@@ -82,31 +123,45 @@
               "status": "passed",
               "duration": 31
             },
-            "line": 10,
+            "line": 14,
             "match": {
-              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:93"
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:126"
             }
           }
         ]
       },
       {
         "keyword": "Scenario",
-        "line": 12,
+        "line": 16,
         "name": "Cancel computer record creation",
         "tags": [],
         "id": "computer-database---create-records;cancel-computer-record-creation",
         "steps": [
           {
             "arguments": [],
+            "keyword": "Given ",
+            "name": "There are a number of records existing in the DB",
+            "result": {
+              "status": "passed",
+              "duration": 279
+            },
+            "isBackground": true,
+            "line": 4,
+            "match": {
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:8"
+            }
+          },
+          {
+            "arguments": [],
             "keyword": "When ",
             "name": "I enter valid data for all the fields in the add computer form",
             "result": {
               "status": "passed",
-              "duration": 431
+              "duration": 456
             },
-            "line": 13,
+            "line": 17,
             "match": {
-              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:97"
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:130"
             }
           },
           {
@@ -115,11 +170,11 @@
             "name": "I cancel",
             "result": {
               "status": "passed",
-              "duration": 256
+              "duration": 253
             },
-            "line": 14,
+            "line": 18,
             "match": {
-              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:108"
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:141"
             }
           },
           {
@@ -128,11 +183,24 @@
             "name": "I should be navigated back to the list of computers",
             "result": {
               "status": "passed",
-              "duration": 46
+              "duration": 44
             },
-            "line": 15,
+            "line": 19,
             "match": {
-              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:115"
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:148"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the number of records should increase by \"0\"",
+            "result": {
+              "status": "passed",
+              "duration": 32
+            },
+            "line": 20,
+            "match": {
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:22"
             }
           }
         ]
@@ -160,11 +228,11 @@
             "name": "I save a computer with the following name \"testdelete\" in the DB",
             "result": {
               "status": "passed",
-              "duration": 741
+              "duration": 776
             },
             "line": 5,
             "match": {
-              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:51"
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:84"
             }
           },
           {
@@ -173,11 +241,11 @@
             "name": "I delete the record \"testdelete\"",
             "result": {
               "status": "passed",
-              "duration": 937
+              "duration": 917
             },
             "line": 6,
             "match": {
-              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:176"
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:210"
             }
           },
           {
@@ -186,11 +254,11 @@
             "name": "I see a confirmation that the record is deleted",
             "result": {
               "status": "passed",
-              "duration": 74
+              "duration": 44
             },
             "line": 7,
             "match": {
-              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:187"
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:221"
             }
           },
           {
@@ -199,11 +267,11 @@
             "name": "I filter by \"testdelete\"",
             "result": {
               "status": "passed",
-              "duration": 299
+              "duration": 301
             },
             "line": 8,
             "match": {
-              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:24"
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:43"
             }
           },
           {
@@ -212,11 +280,11 @@
             "name": "I should see a message that no results were found",
             "result": {
               "status": "passed",
-              "duration": 30
+              "duration": 29
             },
             "line": 9,
             "match": {
-              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:35"
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:54"
             }
           }
         ]
@@ -244,11 +312,11 @@
             "name": "I open herokuapp`s search page",
             "result": {
               "status": "passed",
-              "duration": 246
+              "duration": 249
             },
             "line": 5,
             "match": {
-              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:9"
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:28"
             }
           },
           {
@@ -257,11 +325,11 @@
             "name": "I filter by \"IBM\"",
             "result": {
               "status": "passed",
-              "duration": 291
+              "duration": 293
             },
             "line": 6,
             "match": {
-              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:24"
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:43"
             }
           },
           {
@@ -270,11 +338,11 @@
             "name": "I should see the list of computers with name \"IBM\"",
             "result": {
               "status": "passed",
-              "duration": 47
+              "duration": 44
             },
             "line": 7,
             "match": {
-              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:31"
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:50"
             }
           }
         ]
@@ -292,11 +360,11 @@
             "name": "I open herokuapp`s search page",
             "result": {
               "status": "passed",
-              "duration": 249
+              "duration": 248
             },
             "line": 10,
             "match": {
-              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:9"
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:28"
             }
           },
           {
@@ -305,11 +373,11 @@
             "name": "I filter by \"herokuapp\"",
             "result": {
               "status": "passed",
-              "duration": 295
+              "duration": 333
             },
             "line": 11,
             "match": {
-              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:24"
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:43"
             }
           },
           {
@@ -322,7 +390,7 @@
             },
             "line": 12,
             "match": {
-              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:35"
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:54"
             }
           }
         ]
@@ -363,11 +431,11 @@
             "name": "I have the computer record with the following details in the DB with company as MOS technology",
             "result": {
               "status": "passed",
-              "duration": 902
+              "duration": 878
             },
             "line": 15,
             "match": {
-              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:39"
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:58"
             }
           },
           {
@@ -376,11 +444,11 @@
             "name": "I filter by \"MOS technology\"",
             "result": {
               "status": "passed",
-              "duration": 298
+              "duration": 315
             },
             "line": 19,
             "match": {
-              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:24"
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:43"
             }
           },
           {
@@ -389,11 +457,11 @@
             "name": "I should see a message that no results were found",
             "result": {
               "status": "passed",
-              "duration": 32
+              "duration": 28
             },
             "line": 20,
             "match": {
-              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:35"
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:54"
             }
           }
         ]
@@ -411,11 +479,11 @@
             "name": "I save a computer with the following name \"Test1011\" in the DB",
             "result": {
               "status": "passed",
-              "duration": 736
+              "duration": 1144
             },
             "line": 23,
             "match": {
-              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:51"
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:84"
             }
           },
           {
@@ -424,11 +492,11 @@
             "name": "I filter by \"Test1011\"",
             "result": {
               "status": "passed",
-              "duration": 293
+              "duration": 334
             },
             "line": 24,
             "match": {
-              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:24"
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:43"
             }
           },
           {
@@ -437,11 +505,11 @@
             "name": "I should see the list of computers with name \"Test1011\"",
             "result": {
               "status": "passed",
-              "duration": 47
+              "duration": 54
             },
             "line": 25,
             "match": {
-              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:31"
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:50"
             }
           }
         ]
@@ -458,7 +526,7 @@
     "elements": [
       {
         "keyword": "Scenario",
-        "line": 6,
+        "line": 7,
         "name": "Saving without changes",
         "tags": [],
         "id": "computer-database---update-records;saving-without-changes",
@@ -469,12 +537,26 @@
             "name": "I save a valid computer record in the DB",
             "result": {
               "status": "passed",
-              "duration": 912
+              "duration": 858
             },
             "isBackground": true,
             "line": 4,
             "match": {
-              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:59"
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:92"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "There are a number of records existing in the DB",
+            "result": {
+              "status": "passed",
+              "duration": 270
+            },
+            "isBackground": true,
+            "line": 5,
+            "match": {
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:8"
             }
           },
           {
@@ -483,11 +565,11 @@
             "name": "I edit the same computer record",
             "result": {
               "status": "passed",
-              "duration": 561
+              "duration": 1089
             },
-            "line": 7,
+            "line": 8,
             "match": {
-              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:121"
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:154"
             }
           },
           {
@@ -496,11 +578,11 @@
             "name": "I save without editing",
             "result": {
               "status": "passed",
-              "duration": 556
+              "duration": 454
             },
-            "line": 8,
+            "line": 9,
             "match": {
-              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:131"
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:165"
             }
           },
           {
@@ -509,11 +591,11 @@
             "name": "the saved record should have the same name as original",
             "result": {
               "status": "passed",
-              "duration": 564
+              "duration": 565
             },
-            "line": 9,
+            "line": 10,
             "match": {
-              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:137"
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:171"
             }
           },
           {
@@ -522,11 +604,11 @@
             "name": "the same introduced date",
             "result": {
               "status": "passed",
-              "duration": 28
+              "duration": 26
             },
-            "line": 10,
+            "line": 11,
             "match": {
-              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:147"
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:181"
             }
           },
           {
@@ -535,31 +617,18 @@
             "name": "the same discontinued date",
             "result": {
               "status": "passed",
-              "duration": 33
-            },
-            "line": 11,
-            "match": {
-              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:152"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the same company",
-            "result": {
-              "status": "passed",
-              "duration": 29
+              "duration": 30
             },
             "line": 12,
             "match": {
-              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:157"
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:186"
             }
           }
         ]
       },
       {
         "keyword": "Scenario",
-        "line": 14,
+        "line": 15,
         "name": "Editing details and saving",
         "tags": [],
         "id": "computer-database---update-records;editing-details-and-saving",
@@ -570,12 +639,26 @@
             "name": "I save a valid computer record in the DB",
             "result": {
               "status": "passed",
-              "duration": 888
+              "duration": 864
             },
             "isBackground": true,
             "line": 4,
             "match": {
-              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:59"
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:92"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "There are a number of records existing in the DB",
+            "result": {
+              "status": "passed",
+              "duration": 298
+            },
+            "isBackground": true,
+            "line": 5,
+            "match": {
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:8"
             }
           },
           {
@@ -584,11 +667,60 @@
             "name": "I edit the same computer record",
             "result": {
               "status": "passed",
-              "duration": 566
+              "duration": 557
             },
-            "line": 15,
+            "line": 16,
             "match": {
-              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:121"
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:154"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Computer name",
+                      "Updated123"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Introduced date",
+                      "2015-06-14"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Discontinued date",
+                      "2017-04-11"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "name": "I save the computer record with the following details in the DB",
+            "result": {
+              "status": "passed",
+              "duration": 856
+            },
+            "line": 17,
+            "match": {
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:70"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the number of records should increase by \"0\"",
+            "result": {
+              "status": "passed",
+              "duration": 29
+            },
+            "line": 21,
+            "match": {
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:22"
             }
           },
           {
@@ -617,50 +749,14 @@
               }
             ],
             "keyword": "And ",
-            "name": "I save the computer record with the following details in the DB with company as MOS technology",
-            "result": {
-              "status": "passed",
-              "duration": 893
-            },
-            "line": 16,
-            "match": {
-              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:39"
-            }
-          },
-          {
-            "arguments": [
-              {
-                "rows": [
-                  {
-                    "cells": [
-                      "Computer name",
-                      "Updated"
-                    ]
-                  },
-                  {
-                    "cells": [
-                      "Introduced date",
-                      "2015-06-14"
-                    ]
-                  },
-                  {
-                    "cells": [
-                      "Discontinued date",
-                      "2017-04-11"
-                    ]
-                  }
-                ]
-              }
-            ],
-            "keyword": "Then ",
             "name": "the saved record should have the following details",
             "result": {
               "status": "passed",
-              "duration": 541
+              "duration": 543
             },
-            "line": 20,
+            "line": 22,
             "match": {
-              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:162"
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:196"
             }
           }
         ]
