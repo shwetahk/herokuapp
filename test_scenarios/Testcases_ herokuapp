@@ -1,0 +1,123 @@
+Tests for herokuapp
+
+CREATE :
+--------
+
+Scenario - Add a record to the Computer DB
+Pre-condition :
+  There are X number of computers in the DB
+Steps :
+  Navigate to 'Add a computer' page by clicking on 'Add a new computer'
+  Enter valid data for all fields
+  Save the details by clicking on 'Create this computer' button
+Expected:
+  The list of existing computers should be listed along with the new computer and the confirmation that the computer record has been created.
+  The number of computers in the DB should increase by 1 (X+1)
+
+Scenario - Add a record to the Computer DB with incomplete data
+Pre-condition:
+  There are Y number of computers in the DB
+Steps:
+  Navigate to 'Add a computer' page by clicking on 'Add a new computer'
+  Enter the following invalid data for the fields-
+    Name :
+    Introduced date : 12-12-1990
+    Discontinued date : 12-12-1991
+  Save the details by clicking on 'Create this computer' button
+Expected:
+  The following fields must be highlighted to indicate that they are not valid
+    Name :
+    Introduced date : 12-12-1990
+    Discontinued date : 12-12-1991
+  And the number of computer in the DB should stay the same (Y)
+
+Scenario - Add a record for the Computer DB with Discontinued date earlier than the Introduced date
+Precondition:
+  There are Y number of computers in the DB
+Steps:
+  Navigate to 'Add a computer' page by clicking on 'Add a new computer'
+  Enter the following invalid data for the fields-
+    Name : XYZ
+    Introduced date : 12-12-1990
+    Discontinued date : 12-12-1980
+  Save the details by clicking on 'Create this computer' button
+Expected:
+  The following fields must be highlighted to indicate that they are not valid
+    Introduced date : 12-12-1990
+    Discontinued date : 12-12-1991
+  And the number of computer in the DB should stay the same (Y)
+
+Scenario - Cancel computer record creation
+Pre-condition:
+  There are X number of computers in the DB
+Steps:
+  Navigate to 'Add a computer' page and enter valid data for all the fileds
+    Computer name, Introduced date, Discontinued date, Company
+  Cancel the form by clicking on Cancel
+Expected: The user should be navigated back to the list of computers and the number of computers in the DB should stay as X.
+----------------------------------------------------------------------
+READ:
+-----
+
+Scenario - Search for a valid computer
+Precondition - More than 10 computer records with name IBM are available in the DB
+Steps :
+  Search for computer with name 'IBM'
+Expected:
+  On searching for a computer with name 'IBM' the result set should contain only computers with the substring 'IBM' and I should be able to navigate to the second page to see valid records.
+
+Scenario - Search for invalid computer name
+Precondition - there are records of computers available in the DB
+Steps : Search for a computer that does not exist in the DB
+Expected: No results should be returned
+
+Scenario - Search for computer by Company name
+Precondition - Records of computer with company name populated exist in the DB
+Steps - Search for a computer by its company name
+Expected - Only results with the company name as a substring in the computer name should be returned.
+
+Scenario - Search for a computer and view records
+Precondition - More than 10 computer records with name IBM as substring are available in the DB
+Steps : Search for IBM and paginate to next page 2.
+        Select a record on page 2
+Expected: Should be able to view the record in page 2.
+
+Scenario - Add a record and view it
+Steps :
+  Navigate to 'Add a computer' page by clicking on 'Add a new computer'
+  Enter valid data for all fields
+  Save the details by clicking on 'Create this computer' button
+  Search for the computer that was just added
+  View the record and verify that the data retrieved.
+Expected:
+  The filter result should contain the computer that was just added.
+  On opening the record the details for computer name, introduced date, discontinued date and company name should be the same as what was previously saved.
+----------------------------------------------------------------------
+UPDATE:
+-------
+ Scenario - Update an existing record and do not make any changes to data save the record
+ Precondition - Computer records exist in the DB
+ Steps - Select a record from the list and view details
+         Do not make any changes to the record
+         Save record
+ Expected - The record should contain the data that it previously had and no changes should be made
+
+ Scenario - Change the details of the record and save
+ Precondition - Computer records exist in the DB
+ Steps - Select a record from the list and view details
+         Change computer name, introduced date, discontinued date and company details
+         Save the record
+         View saved record
+Expected - The computer details should be updated with the new values
+          The number of records in the DB should stay the same and no new ones created
+---------------------------------------------------------------------
+DELETE:
+-------
+  Scenario - Delete a record
+  Precondition - Computer records exist in the DB
+  Steps - Select a record from the list to view it details
+          Delete a record by clicking on the delete record button
+  Exected - A confirmation should be displayed that the record has
+          been deleted.
+          The number of computer records should be decremented by 1.
+
