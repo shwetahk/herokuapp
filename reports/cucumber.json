@@ -1,0 +1,671 @@
+[
+  {
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Computer database - Create records",
+    "tags": [],
+    "uri": "/Users/laxman/myproj/features/herokuapp_create.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Successfully add a record to the DB",
+        "tags": [],
+        "id": "computer-database---create-records;successfully-add-a-record-to-the-db",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I save a valid computer record in the DB",
+            "result": {
+              "status": "passed",
+              "duration": 3367
+            },
+            "line": 4,
+            "match": {
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:59"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see the confirmation that the record has been saved",
+            "result": {
+              "status": "passed",
+              "duration": 62
+            },
+            "line": 5,
+            "match": {
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:70"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I should be able to find the same record",
+            "result": {
+              "status": "passed",
+              "duration": 358
+            },
+            "line": 6,
+            "match": {
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:74"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Add a record with incomplete information",
+        "tags": [],
+        "id": "computer-database---create-records;add-a-record-with-incomplete-information",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I save a computer record without a name to the computer database",
+            "result": {
+              "status": "passed",
+              "duration": 951
+            },
+            "line": 9,
+            "match": {
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:82"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see an indication that the name field is required",
+            "result": {
+              "status": "passed",
+              "duration": 31
+            },
+            "line": 10,
+            "match": {
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:93"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Cancel computer record creation",
+        "tags": [],
+        "id": "computer-database---create-records;cancel-computer-record-creation",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter valid data for all the fields in the add computer form",
+            "result": {
+              "status": "passed",
+              "duration": 431
+            },
+            "line": 13,
+            "match": {
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:97"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I cancel",
+            "result": {
+              "status": "passed",
+              "duration": 256
+            },
+            "line": 14,
+            "match": {
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:108"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should be navigated back to the list of computers",
+            "result": {
+              "status": "passed",
+              "duration": 46
+            },
+            "line": 15,
+            "match": {
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:115"
+            }
+          }
+        ]
+      }
+    ],
+    "id": "computer-database---create-records"
+  },
+  {
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Computer database-delete records",
+    "tags": [],
+    "uri": "/Users/laxman/myproj/features/herokuapp_delete.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Deleting a record",
+        "tags": [],
+        "id": "computer-database-delete-records;deleting-a-record",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I save a computer with the following name \"testdelete\" in the DB",
+            "result": {
+              "status": "passed",
+              "duration": 741
+            },
+            "line": 5,
+            "match": {
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:51"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I delete the record \"testdelete\"",
+            "result": {
+              "status": "passed",
+              "duration": 937
+            },
+            "line": 6,
+            "match": {
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:176"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I see a confirmation that the record is deleted",
+            "result": {
+              "status": "passed",
+              "duration": 74
+            },
+            "line": 7,
+            "match": {
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:187"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I filter by \"testdelete\"",
+            "result": {
+              "status": "passed",
+              "duration": 299
+            },
+            "line": 8,
+            "match": {
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I should see a message that no results were found",
+            "result": {
+              "status": "passed",
+              "duration": 30
+            },
+            "line": 9,
+            "match": {
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:35"
+            }
+          }
+        ]
+      }
+    ],
+    "id": "computer-database-delete-records"
+  },
+  {
+    "keyword": "Feature",
+    "line": 2,
+    "name": "Computer database - Read",
+    "tags": [],
+    "uri": "/Users/laxman/myproj/features/herokuapp_read.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Search for a valid computer",
+        "tags": [],
+        "id": "computer-database---read;search-for-a-valid-computer",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open herokuapp`s search page",
+            "result": {
+              "status": "passed",
+              "duration": 246
+            },
+            "line": 5,
+            "match": {
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I filter by \"IBM\"",
+            "result": {
+              "status": "passed",
+              "duration": 291
+            },
+            "line": 6,
+            "match": {
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see the list of computers with name \"IBM\"",
+            "result": {
+              "status": "passed",
+              "duration": 47
+            },
+            "line": 7,
+            "match": {
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:31"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Search for a invalid computer",
+        "tags": [],
+        "id": "computer-database---read;search-for-a-invalid-computer",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I open herokuapp`s search page",
+            "result": {
+              "status": "passed",
+              "duration": 249
+            },
+            "line": 10,
+            "match": {
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I filter by \"herokuapp\"",
+            "result": {
+              "status": "passed",
+              "duration": 295
+            },
+            "line": 11,
+            "match": {
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see a message that no results were found",
+            "result": {
+              "status": "passed",
+              "duration": 29
+            },
+            "line": 12,
+            "match": {
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:35"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Search by company name",
+        "tags": [],
+        "id": "computer-database---read;search-by-company-name",
+        "steps": [
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Computer name",
+                      "TestMOS6"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Introduced date",
+                      "2017-06-16"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Discontinued date",
+                      "2017-06-16"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Given ",
+            "name": "I have the computer record with the following details in the DB with company as MOS technology",
+            "result": {
+              "status": "passed",
+              "duration": 902
+            },
+            "line": 15,
+            "match": {
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:39"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I filter by \"MOS technology\"",
+            "result": {
+              "status": "passed",
+              "duration": 298
+            },
+            "line": 19,
+            "match": {
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see a message that no results were found",
+            "result": {
+              "status": "passed",
+              "duration": 32
+            },
+            "line": 20,
+            "match": {
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:35"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Viewing a computer that was just added",
+        "tags": [],
+        "id": "computer-database---read;viewing-a-computer-that-was-just-added",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I save a computer with the following name \"Test1011\" in the DB",
+            "result": {
+              "status": "passed",
+              "duration": 736
+            },
+            "line": 23,
+            "match": {
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:51"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I filter by \"Test1011\"",
+            "result": {
+              "status": "passed",
+              "duration": 293
+            },
+            "line": 24,
+            "match": {
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see the list of computers with name \"Test1011\"",
+            "result": {
+              "status": "passed",
+              "duration": 47
+            },
+            "line": 25,
+            "match": {
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:31"
+            }
+          }
+        ]
+      }
+    ],
+    "id": "computer-database---read"
+  },
+  {
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Computer database - Update records",
+    "tags": [],
+    "uri": "/Users/laxman/myproj/features/herokuapp_update.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Saving without changes",
+        "tags": [],
+        "id": "computer-database---update-records;saving-without-changes",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I save a valid computer record in the DB",
+            "result": {
+              "status": "passed",
+              "duration": 912
+            },
+            "isBackground": true,
+            "line": 4,
+            "match": {
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:59"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I edit the same computer record",
+            "result": {
+              "status": "passed",
+              "duration": 561
+            },
+            "line": 7,
+            "match": {
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:121"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I save without editing",
+            "result": {
+              "status": "passed",
+              "duration": 556
+            },
+            "line": 8,
+            "match": {
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:131"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the saved record should have the same name as original",
+            "result": {
+              "status": "passed",
+              "duration": 564
+            },
+            "line": 9,
+            "match": {
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:137"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the same introduced date",
+            "result": {
+              "status": "passed",
+              "duration": 28
+            },
+            "line": 10,
+            "match": {
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:147"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the same discontinued date",
+            "result": {
+              "status": "passed",
+              "duration": 33
+            },
+            "line": 11,
+            "match": {
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:152"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the same company",
+            "result": {
+              "status": "passed",
+              "duration": 29
+            },
+            "line": 12,
+            "match": {
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:157"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Editing details and saving",
+        "tags": [],
+        "id": "computer-database---update-records;editing-details-and-saving",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I save a valid computer record in the DB",
+            "result": {
+              "status": "passed",
+              "duration": 888
+            },
+            "isBackground": true,
+            "line": 4,
+            "match": {
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:59"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I edit the same computer record",
+            "result": {
+              "status": "passed",
+              "duration": 566
+            },
+            "line": 15,
+            "match": {
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:121"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Computer name",
+                      "Updated"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Introduced date",
+                      "2015-06-14"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Discontinued date",
+                      "2017-04-11"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "name": "I save the computer record with the following details in the DB with company as MOS technology",
+            "result": {
+              "status": "passed",
+              "duration": 893
+            },
+            "line": 16,
+            "match": {
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:39"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Computer name",
+                      "Updated"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Introduced date",
+                      "2015-06-14"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Discontinued date",
+                      "2017-04-11"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Then ",
+            "name": "the saved record should have the following details",
+            "result": {
+              "status": "passed",
+              "duration": 541
+            },
+            "line": 20,
+            "match": {
+              "location": "/Users/laxman/myproj/features/step_definitions/steps.js:162"
+            }
+          }
+        ]
+      }
+    ],
+    "id": "computer-database---update-records"
+  }
+]
